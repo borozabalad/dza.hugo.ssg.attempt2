@@ -1,0 +1,1489 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>My New Hugo Site</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="::: full-height-container ::: {#sidebar .split} ::: {#search .navgroup} :::
+::: {#navigation .navgroup}
+CLEAN CLIFcode Image TtDT - Report TtDT - Report - Introduction TtDT - Report - A resilient approach TtDT - Report - A resilient, transparent bCLEARer pipeline architecture TtDT - Report - bCLEARer&#39;s pipeline or pipe-and-filter architecture TtDT - Report - bCLEARer&#39;s nested gated pipeline architecture TtDT - Report - bCLEARer pipeline&#39;s three nesting levels TtDT - Report - bCLEARer pipeline - general design TtDT - Report - Building resilient transformation transparency into the bCLEARer pipeline TtDT - Report - Building resilient dataset transformation transparency TtDT - Report - Building resilient data item transformation transparency TtDT - Report - Appendices TtDT - Report - Appendix - Process: principles versus rules TtDT - Report - Appendix - bH - bHashing and bSumming TtDT - Report - Appendix - cohesion and coupling TtDT - Report - Appendix - separation of concerns principle TtDT - Report - Appendix - immutability and idempotence principle TtDT - Report - Appendix - single-transformation (responsibility) principle (STP) TtDT - Report - Appendix - Aggregated S(ingle) S(ource) O(f) T(ruth) TtDT - Report - Appendix - design patterns and anti-patterns TtDT - Report - Appendix - Glossary of Major Terms TtDT - Report - Appendix - Glossary of Major Terms - Report TtDT - Report - Appendix - Glossary of Major Terms - Research TtDT - Report - Appendix - Reference Iconography TtDT - Report - Appendix - Reference Iconography - Report TtDT - Report - Appendix - Reference Iconography - Report - Pipeline architecture TtDT - Report - Appendix - Reference Iconography - Report - Life history TtDT - Report - Appendix - Reference Iconography - Report - Inter-diagram mapping TtDT - Report - Appendix - Reference Iconography - Report - Common TtDT - Report - Appendix - Reference Iconography - Research TtDT - Report - Appendix - Reference Iconography - Report - Pipeline architecture _ archive 30/01/23 TtDT - Report - Appendix - The standard &#39;Pipeline&#39; or &#39;Pipe-and-Filter&#39; Architecture TtDT - Report - References TtDT - Report - Acknowledgements ::: ::: ::: {#content .">
+    <meta name="generator" content="Hugo 0.119.0">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+    
+    
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="" />
+<meta property="og:description" content="::: full-height-container ::: {#sidebar .split} ::: {#search .navgroup} :::
+::: {#navigation .navgroup}
+CLEAN CLIFcode Image TtDT - Report TtDT - Report - Introduction TtDT - Report - A resilient approach TtDT - Report - A resilient, transparent bCLEARer pipeline architecture TtDT - Report - bCLEARer&#39;s pipeline or pipe-and-filter architecture TtDT - Report - bCLEARer&#39;s nested gated pipeline architecture TtDT - Report - bCLEARer pipeline&#39;s three nesting levels TtDT - Report - bCLEARer pipeline - general design TtDT - Report - Building resilient transformation transparency into the bCLEARer pipeline TtDT - Report - Building resilient dataset transformation transparency TtDT - Report - Building resilient data item transformation transparency TtDT - Report - Appendices TtDT - Report - Appendix - Process: principles versus rules TtDT - Report - Appendix - bH - bHashing and bSumming TtDT - Report - Appendix - cohesion and coupling TtDT - Report - Appendix - separation of concerns principle TtDT - Report - Appendix - immutability and idempotence principle TtDT - Report - Appendix - single-transformation (responsibility) principle (STP) TtDT - Report - Appendix - Aggregated S(ingle) S(ource) O(f) T(ruth) TtDT - Report - Appendix - design patterns and anti-patterns TtDT - Report - Appendix - Glossary of Major Terms TtDT - Report - Appendix - Glossary of Major Terms - Report TtDT - Report - Appendix - Glossary of Major Terms - Research TtDT - Report - Appendix - Reference Iconography TtDT - Report - Appendix - Reference Iconography - Report TtDT - Report - Appendix - Reference Iconography - Report - Pipeline architecture TtDT - Report - Appendix - Reference Iconography - Report - Life history TtDT - Report - Appendix - Reference Iconography - Report - Inter-diagram mapping TtDT - Report - Appendix - Reference Iconography - Report - Common TtDT - Report - Appendix - Reference Iconography - Research TtDT - Report - Appendix - Reference Iconography - Report - Pipeline architecture _ archive 30/01/23 TtDT - Report - Appendix - The standard &#39;Pipeline&#39; or &#39;Pipe-and-Filter&#39; Architecture TtDT - Report - References TtDT - Report - Acknowledgements ::: ::: ::: {#content ." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/page5796331521/" /><meta property="article:section" content="posts" />
+
+
+<meta itemprop="name" content="">
+<meta itemprop="description" content="::: full-height-container ::: {#sidebar .split} ::: {#search .navgroup} :::
+::: {#navigation .navgroup}
+CLEAN CLIFcode Image TtDT - Report TtDT - Report - Introduction TtDT - Report - A resilient approach TtDT - Report - A resilient, transparent bCLEARer pipeline architecture TtDT - Report - bCLEARer&#39;s pipeline or pipe-and-filter architecture TtDT - Report - bCLEARer&#39;s nested gated pipeline architecture TtDT - Report - bCLEARer pipeline&#39;s three nesting levels TtDT - Report - bCLEARer pipeline - general design TtDT - Report - Building resilient transformation transparency into the bCLEARer pipeline TtDT - Report - Building resilient dataset transformation transparency TtDT - Report - Building resilient data item transformation transparency TtDT - Report - Appendices TtDT - Report - Appendix - Process: principles versus rules TtDT - Report - Appendix - bH - bHashing and bSumming TtDT - Report - Appendix - cohesion and coupling TtDT - Report - Appendix - separation of concerns principle TtDT - Report - Appendix - immutability and idempotence principle TtDT - Report - Appendix - single-transformation (responsibility) principle (STP) TtDT - Report - Appendix - Aggregated S(ingle) S(ource) O(f) T(ruth) TtDT - Report - Appendix - design patterns and anti-patterns TtDT - Report - Appendix - Glossary of Major Terms TtDT - Report - Appendix - Glossary of Major Terms - Report TtDT - Report - Appendix - Glossary of Major Terms - Research TtDT - Report - Appendix - Reference Iconography TtDT - Report - Appendix - Reference Iconography - Report TtDT - Report - Appendix - Reference Iconography - Report - Pipeline architecture TtDT - Report - Appendix - Reference Iconography - Report - Life history TtDT - Report - Appendix - Reference Iconography - Report - Inter-diagram mapping TtDT - Report - Appendix - Reference Iconography - Report - Common TtDT - Report - Appendix - Reference Iconography - Research TtDT - Report - Appendix - Reference Iconography - Report - Pipeline architecture _ archive 30/01/23 TtDT - Report - Appendix - The standard &#39;Pipeline&#39; or &#39;Pipe-and-Filter&#39; Architecture TtDT - Report - References TtDT - Report - Acknowledgements ::: ::: ::: {#content .">
+
+<meta itemprop="wordCount" content="9706">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content=""/>
+<meta name="twitter:description" content="::: full-height-container ::: {#sidebar .split} ::: {#search .navgroup} :::
+::: {#navigation .navgroup}
+CLEAN CLIFcode Image TtDT - Report TtDT - Report - Introduction TtDT - Report - A resilient approach TtDT - Report - A resilient, transparent bCLEARer pipeline architecture TtDT - Report - bCLEARer&#39;s pipeline or pipe-and-filter architecture TtDT - Report - bCLEARer&#39;s nested gated pipeline architecture TtDT - Report - bCLEARer pipeline&#39;s three nesting levels TtDT - Report - bCLEARer pipeline - general design TtDT - Report - Building resilient transformation transparency into the bCLEARer pipeline TtDT - Report - Building resilient dataset transformation transparency TtDT - Report - Building resilient data item transformation transparency TtDT - Report - Appendices TtDT - Report - Appendix - Process: principles versus rules TtDT - Report - Appendix - bH - bHashing and bSumming TtDT - Report - Appendix - cohesion and coupling TtDT - Report - Appendix - separation of concerns principle TtDT - Report - Appendix - immutability and idempotence principle TtDT - Report - Appendix - single-transformation (responsibility) principle (STP) TtDT - Report - Appendix - Aggregated S(ingle) S(ource) O(f) T(ruth) TtDT - Report - Appendix - design patterns and anti-patterns TtDT - Report - Appendix - Glossary of Major Terms TtDT - Report - Appendix - Glossary of Major Terms - Report TtDT - Report - Appendix - Glossary of Major Terms - Research TtDT - Report - Appendix - Reference Iconography TtDT - Report - Appendix - Reference Iconography - Report TtDT - Report - Appendix - Reference Iconography - Report - Pipeline architecture TtDT - Report - Appendix - Reference Iconography - Report - Life history TtDT - Report - Appendix - Reference Iconography - Report - Inter-diagram mapping TtDT - Report - Appendix - Reference Iconography - Report - Common TtDT - Report - Appendix - Reference Iconography - Research TtDT - Report - Appendix - Reference Iconography - Report - Pipeline architecture _ archive 30/01/23 TtDT - Report - Appendix - The standard &#39;Pipeline&#39; or &#39;Pipe-and-Filter&#39; Architecture TtDT - Report - References TtDT - Report - Acknowledgements ::: ::: ::: {#content ."/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        My New Hugo Site
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        POSTS
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1"></h1>
+      
+      
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>::: full-height-container
+::: {#sidebar .split}
+::: {#search .navgroup}
+:::</p>
+<p>::: {#navigation .navgroup}</p>
+<ul>
+<li><a href="http://example.org/posts/page5501091875/">CLEAN CLIFcode Image</a></li>
+<li><a href="http://example.org/posts/page5766283265/">TtDT - Report</a>
+<ul>
+<li><a href="http://example.org/posts/page5765071213/">TtDT - Report - Introduction</a></li>
+<li><a href="http://example.org/posts/page5769560149/">TtDT - Report - A resilient approach</a></li>
+<li><a href="http://example.org/posts/page5766316210/">TtDT - Report - A resilient, transparent bCLEARer pipeline
+architecture</a>
+<ul>
+<li><a href="http://example.org/posts/page5773230168/">TtDT - Report - bCLEARer's pipeline or pipe-and-filter
+architecture</a></li>
+<li><a href="http://example.org/posts/page5773656071/">TtDT - Report - bCLEARer's nested gated pipeline
+architecture</a></li>
+<li><a href="http://example.org/posts/page5766545422/">TtDT - Report - bCLEARer pipeline's three nesting
+levels</a></li>
+<li><a href="http://example.org/posts/page5775163422/">TtDT - Report - bCLEARer pipeline - general
+design</a></li>
+</ul>
+</li>
+<li><a href="http://example.org/posts/page5769494532/">TtDT - Report - Building resilient transformation transparency
+into the bCLEARer pipeline</a>
+<ul>
+<li><a href="http://example.org/posts/page5765136857/">TtDT - Report - Building resilient dataset transformation
+transparency</a></li>
+<li><a href="http://example.org/posts/page5766316201/">TtDT - Report - Building resilient data item transformation
+transparency</a></li>
+</ul>
+</li>
+<li><a href="http://example.org/posts/page5768675336/">TtDT - Report - Appendices</a>
+<ul>
+<li><a href="http://example.org/posts/page5769003012/">TtDT - Report - Appendix - Process: principles versus
+rules</a></li>
+<li><a href="http://example.org/posts/page5768839184/">TtDT - Report - Appendix - bH - bHashing and
+bSumming</a></li>
+<li><a href="http://example.org/posts/page5772804097/">TtDT - Report - Appendix - cohesion and
+coupling</a></li>
+<li><a href="http://example.org/posts/page5772804106/">TtDT - Report - Appendix - separation of concerns
+principle</a></li>
+<li><a href="http://example.org/posts/page5772869633/">TtDT - Report - Appendix - immutability and idempotence
+principle</a></li>
+<li><a href="http://example.org/posts/page5772804114/">TtDT - Report - Appendix - single-transformation
+(responsibility) principle (STP)</a></li>
+<li><a href="http://example.org/posts/page5773328385/">TtDT - Report - Appendix - Aggregated S(ingle) S(ource)
+O(f) T(ruth)</a></li>
+<li><a href="http://example.org/posts/page5775982593/">TtDT - Report - Appendix - design patterns and
+anti-patterns</a></li>
+<li><a href="http://example.org/posts/page5780340771/">TtDT - Report - Appendix - Glossary of Major
+Terms</a>
+<ul>
+<li><a href="http://example.org/posts/page5793284135/">TtDT - Report - Appendix - Glossary of Major Terms -
+Report</a></li>
+<li><a href="http://example.org/posts/page5793218610/">TtDT - Report - Appendix - Glossary of Major Terms -
+Research</a></li>
+</ul>
+</li>
+<li><a href="http://example.org/posts/page5784010894/">TtDT - Report - Appendix - Reference
+Iconography</a>
+<ul>
+<li><a href="http://example.org/posts/page5783355393/">TtDT - Report - Appendix - Reference Iconography -
+Report</a>
+<ul>
+<li><a href="http://example.org/posts/page5797249025/">TtDT - Report - Appendix - Reference Iconography -
+Report - Pipeline architecture</a></li>
+<li><a href="http://example.org/posts/page5796298761/">TtDT - Report - Appendix - Reference Iconography -
+Report - Life history</a></li>
+<li><a href="http://example.org/posts/page5796299378/">TtDT - Report - Appendix - Reference Iconography -
+Report - Inter-diagram mapping</a></li>
+<li><a href="http://example.org/posts/page5796299991/">TtDT - Report - Appendix - Reference Iconography -
+Report - Common</a></li>
+</ul>
+</li>
+<li><a href="http://example.org/posts/page5785092097/">TtDT - Report - Appendix - Reference Iconography -
+Research</a>
+<ul>
+<li>TtDT - Report - Appendix - Reference Iconography -
+Report - Pipeline architecture _ archive 30/01/23</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="http://example.org/posts/page5784338433/">TtDT - Report - Appendix - The standard 'Pipeline' or
+'Pipe-and-Filter' Architecture</a></li>
+</ul>
+</li>
+<li><a href="http://example.org/posts/page5766578192/">TtDT - Report - References</a></li>
+<li><a href="http://example.org/posts/page5766545409/">TtDT - Report - Acknowledgements</a>
+:::
+:::</li>
+</ul>
+</li>
+</ul>
+<p>::: {#content .split}
+::: wiki-page
+::: wiki-title</p>
+<h1 id="Bookmark197" class="page-title-lvl-cover">TtDT - Report - Appendix - Reference Iconography - Report - Pipeline architecture _ archive 30/01/23</h1>
+<p>:::</p>
+<p>::: wiki-content
+[CPa: what should the order of sections be? would pipeline not go before
+pipes and filters? Or do you build from the atoms up? If so, why not
+call a section base components with subsections for pipes and
+filters?]{style=&ldquo;color: rgb(0,102,68);&rdquo;}</p>
+<p>[CPa: generally, I think far too many columns - also columns 1 and 3
+seem to repeat (DRY/WET). So what would be a better set of columns?
+Maybe make the columns, sections within a
+column?]{style=&ldquo;color: rgb(0,102,68);&rdquo;}</p>
+<p>[CPa: Are we using an alphabetic ordering convention - within the
+sections? - maybe say this.]{style=&ldquo;color: rgb(0,102,68);&rdquo;}</p>
+<p>[CPa: Should we have a Table of Contents? See below - can we exclude the
+rows?]{style=&ldquo;color: rgb(0,102,68);&rdquo;}</p>
+<p>::: {.toc-macro .rbtoc1696493228695}</p>
+<ul>
+<li><a href="#Bookmark198" title="Pipe-related icons">Pipe-related icons</a>
+<ul>
+<li><a href="#Bookmark199" title="dataset collection (pipe)">dataset collection
+(pipe)</a></li>
+<li><a href="#Bookmark200" title="dataset (pipe)">dataset (pipe)</a></li>
+<li><a href="#Bookmark201" title="data item">data item</a></li>
+<li><a href="#Bookmark202" title="metadata">metadata</a></li>
+<li><a href="#Bookmark203" title="pipe">pipe</a></li>
+</ul>
+</li>
+<li><a href="#Bookmark204" title="Filter-related icons">Filter-related icons</a>
+<ul>
+<li><a href="#Bookmark205" title="filter">filter</a></li>
+</ul>
+</li>
+<li><a href="#Bookmark206" title="Pipeline">Pipeline</a>
+<ul>
+<li><a href="#Bookmark207" title="Perspectives">Perspectives</a>
+<ul>
+<li><a href="#Bookmark208" title="process type perspective">process type
+perspective</a></li>
+<li><a href="#Bookmark209" title="data type perspective">data type
+perspective</a></li>
+</ul>
+</li>
+<li><a href="#Bookmark210" title="Simple pipeline">Simple pipeline</a>
+<ul>
+<li><a href="#Bookmark211" title="simple pipeline diagram">simple pipeline
+diagram</a></li>
+<li><a href="#Bookmark212" title="process time">process time</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#Bookmark213" title="Nesting">Nesting</a>
+<ul>
+<li><a href="#Bookmark214" title="Nested pipeline diagram">Nested pipeline
+diagram</a>
+<ul>
+<li><a href="#Bookmark215" title="nested pipeline diagram">nested pipeline
+diagram</a></li>
+</ul>
+</li>
+<li><a href="#Bookmark216" title="Nesting diagram">Nesting diagram</a>
+<ul>
+<li><a href="#Bookmark217" title="nesting diagram">nesting diagram</a></li>
+<li><a href="#Bookmark218" title="container">container</a></li>
+</ul>
+</li>
+<li><a href="#Bookmark219" title="Inter-diagram mapping">Inter-diagram mapping</a>
+<ul>
+<li><a href="#Bookmark220" title="corresponding nested pipeline and nesting diagrams">corresponding nested pipeline and nesting
+diagrams</a>
+:::</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>[]{#Bookmark198}</p>
+<h2 id="Bookmark198">Pipe-related icons</h2>
+<p>::: table-wrap
++&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+
+| <em><em>o      | <em><em>ico    | <em><em>ico    | *        | <em><em>ico    | <strong>ico    |
+| bjects</strong> | nography | nography | <em>notes</em></em> | nography | nography |
+|          | o        | object   |          | objects  | objects  |
+|          | bjects</em></em> | names</em></em>  |          | adorned  | adorning |
+|          |          |          |          | with     | &hellip;</em></em>    |
+|          |          |          |          | &hellip;</em>*    |          |
++&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+
+| []{#Book | [        | dataset  | <del>The    | [[CPa:  | <del>The    |
+| mark199} | ![](/Use | co       | dataset  | Ummm, in | dataset  |
+|          | rs/terra | llection | co       | p        | co       |
+| ##       | ire/Down | [[CPa:  | llection | ractice, | llection |
+| ## **dat | loads/Tt | duplica  | icon has | we would | icon may |
+| aset col | DT/media | tion??] | the      | name the | adorn a  |
+| lection  | /img_154 | ]{style= | function | actual   | pipe     |
+| [(pipe)] | .png){.c | &ldquo;color:  | of pipe  | dataset  | icon in  |
+| {style=&rdquo; | onfluenc | rgb(0,10 | a        | co       | a</del>      |
+| color: r | e-embedd | 2,68);&quot;} | dornment | llection | [~       |
+| gb(191,3 | ed-image |          | in a</del>   | with a   | ~process |
+| 8,0);&quot;}* | .        |          | [~       | me       | type     |
+| * {#Book | image-ce |          | ~process | aningful | perspect |
+| mark199} | nter}]{. |          | type     | name -   | ive~~](h |
+|          | confluen |          | perspe   | these    | ttps://b |
+| [        | ce-embed |          | ctive~~] | names    | orocvi.a |
+| <del>[CPa: | ded-file |          | (https:/ | are      | tlassian |
+| Ummm, I  | -wrapper |          | /borocvi | place    | .net/wik |
+| wonder   | .image   |          | .atlassi | holders, | i/spaces |
+| whether  | -center- |          | an.net/w | aren&rsquo;t   | /SB/page |
+| we       | wrapper} |          | iki/spac | they?    | s/578335 |
+| should   |          |          | es/SB/pa | ]       | 5393/TtD |
+| have the |          |          | ges/5783 | ]{style= | T+-+Repo |
+| notion   |          |          | 355393/T | &ldquo;color:  | rt+-+App |
+| of a     |          |          | tDT+-+Re | rgb(0,10 | endix+-+ |
+| data     |          |          | port+-+A | 2,68);&rdquo;} | Referenc |
+| icon     |          |          | ppendix+ |          | e+Iconog |
+| with two |          |          | -+Refere | <del>This   | raphy+-+ |
+| repres   |          |          | nce+Icon | icon can | Report#p |
+| entation |          |          | ography+ | be       | rocess-t |
+| s???]</del> |          |          | -+Report | adorned  | ype-pers |
+| ]{style= |          |          | #process | with a   | pective  |
+| &ldquo;color:  |          |          | -type-pe | &quot;data   | &ldquo;https:/ |
+| rgb(0,10 |          |          | rspectiv | source&quot; | /borocvi |
+| 2,68);&rdquo;} |          |          | e &ldquo;https | name     | .atlassi |
+|          |          |          | ://boroc | (resp    | an.net/w |
+|          |          |          | vi.atlas | ectively | iki/spac |
+|          |          |          | sian.net | &quot;data   | es/SB/pa |
+|          |          |          | /wiki/sp | target&rdquo;  | ges/5783 |
+|          |          |          | aces/SB/ | name)    | 355393/T |
+|          |          |          | pages/57 | when the | tDT+-+Re |
+|          |          |          | 83355393 | dataset  | port+-+A |
+|          |          |          | /TtDT+-+ | co       | ppendix+ |
+|          |          |          | Report+- | llection | -+Refere |
+|          |          |          | +Appendi | is a     | nce+Icon |
+|          |          |          | x+-+Refe | data     | ography+ |
+|          |          |          | rence+Ic | source   | -+Report |
+|          |          |          | onograph | (respe   | #process |
+|          |          |          | y+-+Repo | ctively, | -type-pe |
+|          |          |          | rt#proce | a data   | rspectiv |
+|          |          |          | ss-type- | ta       | e&rdquo;){rel= |
+|          |          |          | perspect | rget).</del> | &ldquo;nofollo |
+|          |          |          | ive&rdquo;){re |          | w&quot;}<del>.</del> |
+|          |          |          | l=&ldquo;nofol | [        |          |
+|          |          |          | low&rdquo;}<del>, | ![](/Use |          |
+|          |          |          | and the  | rs/terra |          |
+|          |          |          | function | ire/Down |          |
+|          |          |          | of a     | loads/Tt |          |
+|          |          |          | pipe in  | DT/media |          |
+|          |          |          | a</del>      | /img_155 |          |
+|          |          |          | [<del>data  | .png){.c |          |
+|          |          |          | type     | onfluenc |          |
+|          |          |          | pe       | e-embedd |          |
+|          |          |          | rspectiv | ed-image |          |
+|          |          |          | e</del>](htt | .imag    |          |
+|          |          |          | ps://bor | e-center |          |
+|          |          |          | ocvi.atl | wid      |          |
+|          |          |          | assian.n | th=&ldquo;204&rdquo; |          |
+|          |          |          | et/wiki/ | height=&quot; |          |
+|          |          |          | spaces/S | 100&quot;}]{. |          |
+|          |          |          | B/pages/ | confluen |          |
+|          |          |          | 57833553 | ce-embed |          |
+|          |          |          | 93/TtDT+ | ded-file |          |
+|          |          |          | -+Report | -wrapper |          |
+|          |          |          | +-+Appen | .imag    |          |
+|          |          |          | dix+-+Re | e-center |          |
+|          |          |          | ference+ | -wrapper |          |
+|          |          |          | Iconogra | .        |          |
+|          |          |          | phy+-+Re | confluen |          |
+|          |          |          | port#dat | ce-embed |          |
+|          |          |          | a-type-p | ded-manu |          |
+|          |          |          | erspecti | al-size} |          |
+|          |          |          | ve &ldquo;http |          |          |
+|          |          |          | s://boro | [        |          |
+|          |          |          | cvi.atla | [Should |          |
+|          |          |          | ssian.ne | the      |          |
+|          |          |          | t/wiki/s | f        |          |
+|          |          |          | paces/SB | ollowing |          |
+|          |          |          | /pages/5 | para go  |          |
+|          |          |          | 78335539 | here?]  |          |
+|          |          |          | 3/TtDT+- | ]{style= |          |
+|          |          |          | +Report+ | &ldquo;color:  |          |
+|          |          |          | -+Append | rgb(191, |          |
+|          |          |          | ix+-+Ref | 38,0);&rdquo;} |          |
+|          |          |          | erence+I |          |          |
+|          |          |          | conograp | The      |          |
+|          |          |          | hy+-+Rep | dataset  |          |
+|          |          |          | ort#data | co       |          |
+|          |          |          | -type-pe | llection |          |
+|          |          |          | rspectiv | icon may |          |
+|          |          |          | e&rdquo;){rel= | be       |          |
+|          |          |          | &ldquo;nofollo | adorned  |          |
+|          |          |          | w&rdquo;}<del>.</del> | with a   |          |
+|          |          |          |          | gate     |          |
+|          |          |          | [[CPa:  | icon if  |          |
+|          |          |          | rewrite: | the data |          |
+|          |          |          | The icon | is       |          |
+|          |          |          | re       | gated.   |          |
+|          |          |          | presents |          |          |
+|          |          |          | a pipe   | [        |          |
+|          |          |          | that     | ![](/Use |          |
+|          |          |          | carries  | rs/terra |          |
+|          |          |          | a        | ire/Down |          |
+|          |          |          | co       | loads/Tt |          |
+|          |          |          | llection | DT/media |          |
+|          |          |          | of       | /img_156 |          |
+|          |          |          | d        | .png){.c |          |
+|          |          |          | atasets. | onfluenc |          |
+|          |          |          | It can   | e-embedd |          |
+|          |          |          | used on  | ed-image |          |
+|          |          |          | its own  | .imag    |          |
+|          |          |          | (e.g. in | e-center |          |
+|          |          |          | a        | wid      |          |
+|          |          |          | ]{styl   | th=&ldquo;102&rdquo; |          |
+|          |          |          | e=&ldquo;color | height=  |          |
+|          |          |          | : rgb(19 | &ldquo;40&rdquo;}]{. |          |
+|          |          |          | 1,38,0); | confluen |          |
+|          |          |          | &ldquo;}[[data | ce-embed |          |
+|          |          |          | type     | ded-file |          |
+|          |          |          | persp    | -wrapper |          |
+|          |          |          | ective]{ | .imag    |          |
+|          |          |          | style=&ldquo;c | e-center |          |
+|          |          |          | olor: rg | -wrapper |          |
+|          |          |          | b(191,38 | .        |          |
+|          |          |          | ,0);&rdquo;}]( | confluen |          |
+|          |          |          | https:// | ce-embed |          |
+|          |          |          | borocvi. | ded-manu |          |
+|          |          |          | atlassia | al-size} |          |
+|          |          |          | n.net/wi |          |          |
+|          |          |          | ki/space |          |          |
+|          |          |          | s/SB/pag |          |          |
+|          |          |          | es/57833 |          |          |
+|          |          |          | 55393/Tt |          |          |
+|          |          |          | DT+-+Rep |          |          |
+|          |          |          | ort+-+Ap |          |          |
+|          |          |          | pendix+- |          |          |
+|          |          |          | +Referen |          |          |
+|          |          |          | ce+Icono |          |          |
+|          |          |          | graphy+- |          |          |
+|          |          |          | +Report# |          |          |
+|          |          |          | data-typ |          |          |
+|          |          |          | e-perspe |          |          |
+|          |          |          | ctive &ldquo;h |          |          |
+|          |          |          | ttps://b |          |          |
+|          |          |          | orocvi.a |          |          |
+|          |          |          | tlassian |          |          |
+|          |          |          | .net/wik |          |          |
+|          |          |          | i/spaces |          |          |
+|          |          |          | /SB/page |          |          |
+|          |          |          | s/578335 |          |          |
+|          |          |          | 5393/TtD |          |          |
+|          |          |          | T+-+Repo |          |          |
+|          |          |          | rt+-+App |          |          |
+|          |          |          | endix+-+ |          |          |
+|          |          |          | Referenc |          |          |
+|          |          |          | e+Iconog |          |          |
+|          |          |          | raphy+-+ |          |          |
+|          |          |          | Report#d |          |          |
+|          |          |          | ata-type |          |          |
+|          |          |          | -perspec |          |          |
+|          |          |          | tive&rdquo;){r |          |          |
+|          |          |          | el=&ldquo;nofo |          |          |
+|          |          |          | llow&rdquo;}[) |          |          |
+|          |          |          | /// or   |          |          |
+|          |          |          | maybe    |          |          |
+|          |          |          | make     |          |          |
+|          |          |          | this a   |          |          |
+|          |          |          | d        |          |          |
+|          |          |          | ifferent |          |          |
+|          |          |          | en       |          |          |
+|          |          |          | try??? - |          |          |
+|          |          |          | or in    |          |          |
+|          |          |          | con      |          |          |
+|          |          |          | junction |          |          |
+|          |          |          | with a   |          |          |
+|          |          |          | pipe     |          |          |
+|          |          |          | arrow    |          |          |
+|          |          |          | icon (in |          |          |
+|          |          |          | e.g. a   |          |          |
+|          |          |          | ]        |          |          |
+|          |          |          | {style=&rdquo; |          |          |
+|          |          |          | color: r |          |          |
+|          |          |          | gb(191,3 |          |          |
+|          |          |          | 8,0);&rdquo;}[ |          |          |
+|          |          |          | [process |          |          |
+|          |          |          | type     |          |          |
+|          |          |          | per      |          |          |
+|          |          |          | spective |          |          |
+|          |          |          | ]{style= |          |          |
+|          |          |          | &ldquo;color:  |          |          |
+|          |          |          | rgb(191, |          |          |
+|          |          |          | 38,0);&rdquo;} |          |          |
+|          |          |          | ](https: |          |          |
+|          |          |          | //borocv |          |          |
+|          |          |          | i.atlass |          |          |
+|          |          |          | ian.net/ |          |          |
+|          |          |          | wiki/spa |          |          |
+|          |          |          | ces/SB/p |          |          |
+|          |          |          | ages/578 |          |          |
+|          |          |          | 3355393/ |          |          |
+|          |          |          | TtDT+-+R |          |          |
+|          |          |          | eport+-+ |          |          |
+|          |          |          | Appendix |          |          |
+|          |          |          | +-+Refer |          |          |
+|          |          |          | ence+Ico |          |          |
+|          |          |          | nography |          |          |
+|          |          |          | +-+Repor |          |          |
+|          |          |          | t#proces |          |          |
+|          |          |          | s-type-p |          |          |
+|          |          |          | erspecti |          |          |
+|          |          |          | ve &ldquo;http |          |          |
+|          |          |          | s://boro |          |          |
+|          |          |          | cvi.atla |          |          |
+|          |          |          | ssian.ne |          |          |
+|          |          |          | t/wiki/s |          |          |
+|          |          |          | paces/SB |          |          |
+|          |          |          | /pages/5 |          |          |
+|          |          |          | 78335539 |          |          |
+|          |          |          | 3/TtDT+- |          |          |
+|          |          |          | +Report+ |          |          |
+|          |          |          | -+Append |          |          |
+|          |          |          | ix+-+Ref |          |          |
+|          |          |          | erence+I |          |          |
+|          |          |          | conograp |          |          |
+|          |          |          | hy+-+Rep |          |          |
+|          |          |          | ort#proc |          |          |
+|          |          |          | ess-type |          |          |
+|          |          |          | -perspec |          |          |
+|          |          |          | tive&rdquo;){r |          |          |
+|          |          |          | el=&ldquo;nofo |          |          |
+|          |          |          | llow&rdquo;}[, |          |          |
+|          |          |          | ). As a  |          |          |
+|          |          |          | pipe it  |          |          |
+|          |          |          | can      |          |          |
+|          |          |          | op       |          |          |
+|          |          |          | tionally |          |          |
+|          |          |          | be       |          |          |
+|          |          |          | named.] |          |          |
+|          |          |          | ]{style= |          |          |
+|          |          |          | &ldquo;color:  |          |          |
+|          |          |          | rgb(191, |          |          |
+|          |          |          | 38,0);&rdquo;} |          |          |
++&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+
+| []{#Book | [        | dataset  | The      | [[CPa:  | The      |
+| mark200} | ![](/Use | [[CPa:  | dataset  | Ummm,    | dataset  |
+|          | rs/terra | duplica  | icon has | should   | icon may |
+| #### **  | ire/Down | tion??] | the      | we       | adorn a  |
+| dataset  | loads/Tt | ]{style= | function | describe | pipe     |
+| [(pipe)] | DT/media | &ldquo;color:  | of pipe  | the base | icon in  |
+| {style=&rdquo; | /img_157 | rgb(0,10 | a        | items    | a        |
+| color: r | .png){.c | 2,68);&quot;} | dornment | else     | [process |
+| gb(191,3 | onfluenc |          | in a     | where?] | type     |
+| 8,0);&quot;}* | e-embedd |          | [process | ]{style= | pe       |
+| * {#Book | ed-image |          | type     | &ldquo;color:  | rspectiv |
+| mark200} | .        |          | pe       | rgb(0,10 | e](https |
+|          | image-ce |          | rspectiv | 2,68);&rdquo;} | ://boroc |
+|          | nter}]{. |          | e](https |          | vi.atlas |
+|          | confluen |          | ://boroc | Numbered | sian.net |
+|          | ce-embed |          | vi.atlas | items    | /wiki/sp |
+|          | ded-file |          | sian.net | may be   | aces/SB/ |
+|          | -wrapper |          | /wiki/sp | used to  | pages/57 |
+|          | .image   |          | aces/SB/ | adorn    | 83355393 |
+|          | -center- |          | pages/57 | the      | /TtDT+-+ |
+|          | wrapper} |          | 83355393 | dataset  | Report+- |
+|          |          |          | /TtDT+-+ | icon, to | +Appendi |
+|          |          |          | Report+- | r        | x+-+Refe |
+|          |          |          | +Appendi | epresent | rence+Ic |
+|          |          |          | x+-+Refe | the data | onograph |
+|          |          |          | rence+Ic | items of | y+-+Repo |
+|          |          |          | onograph | the      | rt#proce |
+|          |          |          | y+-+Repo | dataset. | ss-type- |
+|          |          |          | rt#proce | Items    | perspect |
+|          |          |          | ss-type- | followed | ive &ldquo;htt |
+|          |          |          | perspect | by an    | ps://bor |
+|          |          |          | ive &ldquo;htt | asterisk | ocvi.atl |
+|          |          |          | ps://bor | are      | assian.n |
+|          |          |          | ocvi.atl | items    | et/wiki/ |
+|          |          |          | assian.n | whose    | spaces/S |
+|          |          |          | et/wiki/ | i        | B/pages/ |
+|          |          |          | spaces/S | mmutable | 57833553 |
+|          |          |          | B/pages/ | content  | 93/TtDT+ |
+|          |          |          | 57833553 | changed  | -+Report |
+|          |          |          | 93/TtDT+ | through  | +-+Appen |
+|          |          |          | -+Report | a        | dix+-+Re |
+|          |          |          | +-+Appen | transfo  | ference+ |
+|          |          |          | dix+-+Re | rmation, | Iconogra |
+|          |          |          | ference+ | e.g.:    | phy+-+Re |
+|          |          |          | Iconogra |          | port#pro |
+|          |          |          | phy+-+Re | [        | cess-typ |
+|          |          |          | port#pro | ![](/Use | e-perspe |
+|          |          |          | cess-typ | rs/terra | ctive&rdquo;){ |
+|          |          |          | e-perspe | ire/Down | rel=&ldquo;nof |
+|          |          |          | ctive&rdquo;){ | loads/Tt | ollow&rdquo;}. |
+|          |          |          | rel=&ldquo;nof | DT/media |          |
+|          |          |          | ollow&rdquo;}, | /img_158 |          |
+|          |          |          | and the  | .png){.c |          |
+|          |          |          | function | onfluenc |          |
+|          |          |          | of a     | e-embedd |          |
+|          |          |          | pipe in  | ed-image |          |
+|          |          |          | a [data  | .imag    |          |
+|          |          |          | type     | e-center |          |
+|          |          |          | pers     | wid      |          |
+|          |          |          | pective] | th=&ldquo;102&rdquo; |          |
+|          |          |          | (https:/ | height=  |          |
+|          |          |          | /borocvi | &ldquo;96&rdquo;}]{. |          |
+|          |          |          | .atlassi | confluen |          |
+|          |          |          | an.net/w | ce-embed |          |
+|          |          |          | iki/spac | ded-file |          |
+|          |          |          | es/SB/pa | -wrapper |          |
+|          |          |          | ges/5783 | .imag    |          |
+|          |          |          | 355393/T | e-center |          |
+|          |          |          | tDT+-+Re | -wrapper |          |
+|          |          |          | port+-+A | .        |          |
+|          |          |          | ppendix+ | confluen |          |
+|          |          |          | -+Refere | ce-embed |          |
+|          |          |          | nce+Icon | ded-manu |          |
+|          |          |          | ography+ | al-size} |          |
+|          |          |          | -+Report |          |          |
+|          |          |          | #data-ty | The      |          |
+|          |          |          | pe-persp | dataset  |          |
+|          |          |          | ective &quot; | icon may |          |
+|          |          |          | https:// | be       |          |
+|          |          |          | borocvi. | adorned  |          |
+|          |          |          | atlassia | with the |          |
+|          |          |          | n.net/wi | metadata |          |
+|          |          |          | ki/space | (label)  |          |
+|          |          |          | s/SB/pag | icon,    |          |
+|          |          |          | es/57833 | e.g.:    |          |
+|          |          |          | 55393/Tt |          |          |
+|          |          |          | DT+-+Rep | [        |          |
+|          |          |          | ort+-+Ap | ![](/Use |          |
+|          |          |          | pendix+- | rs/terra |          |
+|          |          |          | +Referen | ire/Down |          |
+|          |          |          | ce+Icono | loads/Tt |          |
+|          |          |          | graphy+- | DT/media |          |
+|          |          |          | +Report# | /img_159 |          |
+|          |          |          | data-typ | .png){.c |          |
+|          |          |          | e-perspe | onfluenc |          |
+|          |          |          | ctive&quot;){ | e-embedd |          |
+|          |          |          | rel=&ldquo;nof | ed-image |          |
+|          |          |          | ollow&rdquo;}. | .        |          |
+|          |          |          |          | image-ce |          |
+|          |          |          | [[CPa:  | nter}]{. |          |
+|          |          |          | see      | confluen |          |
+|          |          |          | above]  | ce-embed |          |
+|          |          |          | ]{style= | ded-file |          |
+|          |          |          | &ldquo;color:  | -wrapper |          |
+|          |          |          | rgb(0,10 | .image   |          |
+|          |          |          | 2,68);&rdquo;} | -center- |          |
+|          |          |          |          | wrapper} |          |
+|          |          |          |          |          |          |
+|          |          |          |          | The      |          |
+|          |          |          |          | dataset  |          |
+|          |          |          |          | icon may |          |
+|          |          |          |          | be       |          |
+|          |          |          |          | adorned  |          |
+|          |          |          |          | with a   |          |
+|          |          |          |          | dotted   |          |
+|          |          |          |          | line     |          |
+|          |          |          |          | del      |          |
+|          |          |          |          | ineation |          |
+|          |          |          |          | anti     |          |
+|          |          |          |          | cipating |          |
+|          |          |          |          | a split  |          |
+|          |          |          |          | of the   |          |
+|          |          |          |          | dataset  |          |
+|          |          |          |          | or       |          |
+|          |          |          |          | illu     |          |
+|          |          |          |          | strating |          |
+|          |          |          |          | the      |          |
+|          |          |          |          | result   |          |
+|          |          |          |          | of a     |          |
+|          |          |          |          | merge,   |          |
+|          |          |          |          | e.g.:    |          |
+|          |          |          |          |          |          |
+|          |          |          |          | [        |          |
+|          |          |          |          | ![](/Use |          |
+|          |          |          |          | rs/terra |          |
+|          |          |          |          | ire/Down |          |
+|          |          |          |          | loads/Tt |          |
+|          |          |          |          | DT/media |          |
+|          |          |          |          | /img_160 |          |
+|          |          |          |          | .png){.c |          |
+|          |          |          |          | onfluenc |          |
+|          |          |          |          | e-embedd |          |
+|          |          |          |          | ed-image |          |
+|          |          |          |          | .imag    |          |
+|          |          |          |          | e-center |          |
+|          |          |          |          | wid      |          |
+|          |          |          |          | th=&ldquo;102&rdquo; |          |
+|          |          |          |          | height=&quot; |          |
+|          |          |          |          | 132&quot;}]{. |          |
+|          |          |          |          | confluen |          |
+|          |          |          |          | ce-embed |          |
+|          |          |          |          | ded-file |          |
+|          |          |          |          | -wrapper |          |
+|          |          |          |          | .imag    |          |
+|          |          |          |          | e-center |          |
+|          |          |          |          | -wrapper |          |
+|          |          |          |          | .        |          |
+|          |          |          |          | confluen |          |
+|          |          |          |          | ce-embed |          |
+|          |          |          |          | ded-manu |          |
+|          |          |          |          | al-size} |          |
++&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+
+|          | [        | [[CPa:  |          | This     |          |
+|          | ![](/Use | Ummm, is |          | icon may |          |
+|          | rs/terra | this a   |          | be       |          |
+|          | ire/Down | pipe, or |          | adorned  |          |
+|          | loads/Tt | the      |          | with the |          |
+|          | DT/media | dataset  |          | metadata |          |
+|          | /img_161 | itself?  |          | (        |          |
+|          | .png){.c | I&rsquo;m not  |          | columns) |          |
+|          | onfluenc | sure.]  |          | icon,    |          |
+|          | e-embedd | ]{style= |          | e.g.:    |          |
+|          | ed-image | &ldquo;color:  |          |          |          |
+|          | .        | rgb(0,10 |          | [        |          |
+|          | image-ce | 2,68);&rdquo;} |          | ![](/Use |          |
+|          | nter}]{. |          |          | rs/terra |          |
+|          | confluen | dataset  |          | ire/Down |          |
+|          | ce-embed | (with    |          | loads/Tt |          |
+|          | ded-file | row      |          | DT/media |          |
+|          | -wrapper | details) |          | /img_162 |          |
+|          | .image   |          |          | .png){.c |          |
+|          | -center- |          |          | onfluenc |          |
+|          | wrapper} |          |          | e-embedd |          |
+|          |          |          |          | ed-image |          |
+|          |          |          |          | .        |          |
+|          |          |          |          | image-ce |          |
+|          |          |          |          | nter}]{. |          |
+|          |          |          |          | confluen |          |
+|          |          |          |          | ce-embed |          |
+|          |          |          |          | ded-file |          |
+|          |          |          |          | -wrapper |          |
+|          |          |          |          | .image   |          |
+|          |          |          |          | -center- |          |
+|          |          |          |          | wrapper} |          |
++&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+
+| []{#Book | [        | data     |          | This     |          |
+| mark201} | ![](/Use | item     |          | icon may |          |
+|          | rs/terra |          |          | be       |          |
+| #        | ire/Down |          |          | adorned  |          |
+| ### *<em>da | loads/Tt |          |          | with the |          |
+| ta item</em> | DT/media |          |          | metadata |          |
+| * {#Book | /img_163 |          |          | (label)  |          |
+| mark201} | .png){.c |          |          | icon or  |          |
+|          | onfluenc |          |          | with the |          |
+|          | e-embedd |          |          | metadata |          |
+|          | ed-image |          |          | (        |          |
+|          | .        |          |          | columns) |          |
+|          | image-ce |          |          | icon,    |          |
+|          | nter}]{. |          |          | e.g.:    |          |
+|          | confluen |          |          |          |          |
+|          | ce-embed |          |          | [        |          |
+|          | ded-file |          |          | ![](/Use |          |
+|          | -wrapper |          |          | rs/terra |          |
+|          | .image   |          |          | ire/Down |          |
+|          | -center- |          |          | loads/Tt |          |
+|          | wrapper} |          |          | DT/media |          |
+|          |          |          |          | /img_164 |          |
+|          |          |          |          | .png){.c |          |
+|          |          |          |          | onfluenc |          |
+|          |          |          |          | e-embedd |          |
+|          |          |          |          | ed-image |          |
+|          |          |          |          | .imag    |          |
+|          |          |          |          | e-center |          |
+|          |          |          |          | wid      |          |
+|          |          |          |          | th=&ldquo;204&rdquo; |          |
+|          |          |          |          | height=&quot; |          |
+|          |          |          |          | 141&quot;}]{. |          |
+|          |          |          |          | confluen |          |
+|          |          |          |          | ce-embed |          |
+|          |          |          |          | ded-file |          |
+|          |          |          |          | -wrapper |          |
+|          |          |          |          | .imag    |          |
+|          |          |          |          | e-center |          |
+|          |          |          |          | -wrapper |          |
+|          |          |          |          | .c       |          |
+|          |          |          |          | onfluenc |          |
+|          |          |          |          | e-embedd |          |
+|          |          |          |          | ed-manua |          |
+|          |          |          |          | l-size}[ |          |
+|          |          |          |          | ![](/Use |          |
+|          |          |          |          | rs/terra |          |
+|          |          |          |          | ire/Down |          |
+|          |          |          |          | loads/Tt |          |
+|          |          |          |          | DT/media |          |
+|          |          |          |          | /img_165 |          |
+|          |          |          |          | .png){.c |          |
+|          |          |          |          | onfluenc |          |
+|          |          |          |          | e-embedd |          |
+|          |          |          |          | ed-image |          |
+|          |          |          |          | .imag    |          |
+|          |          |          |          | e-center |          |
+|          |          |          |          | wid      |          |
+|          |          |          |          | th=&ldquo;204&rdquo; |          |
+|          |          |          |          | height=&quot; |          |
+|          |          |          |          | 147&quot;}]{. |          |
+|          |          |          |          | confluen |          |
+|          |          |          |          | ce-embed |          |
+|          |          |          |          | ded-file |          |
+|          |          |          |          | -wrapper |          |
+|          |          |          |          | .imag    |          |
+|          |          |          |          | e-center |          |
+|          |          |          |          | -wrapper |          |
+|          |          |          |          | .        |          |
+|          |          |          |          | confluen |          |
+|          |          |          |          | ce-embed |          |
+|          |          |          |          | ded-manu |          |
+|          |          |          |          | al-size} |          |
++&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+
+| []{#Book | TO BE    | &hellip;      |          |          |          |
+| mark202} | C        |          |          |          |          |
+|          | ONTINUED |          |          |          |          |
+| #### <em><em>m |          |          |          |          |          |
+| etadata</em> |          |          |          |          |          |
+| * {#Book |          |          |          |          |          |
+| mark202} |          |          |          |          |          |
++&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+
+| []{#Book | *        |          |          |          |          |
+| mark203} | <em>Note</em></em>: |          |          |          |          |
+|          | A pipe   |          |          |          |          |
+| ####     | can be   |          |          |          |          |
+|  *<em>pipe</em> | rep      |          |          |          |          |
+| * {#Book | resented |          |          |          |          |
+| mark203} | by a     |          |          |          |          |
+|          | dataset  |          |          |          |          |
+|          | co       |          |          |          |          |
+|          | llection |          |          |          |          |
+|          | icon or  |          |          |          |          |
+|          | a        |          |          |          |          |
+|          | dataset  |          |          |          |          |
+|          | icon in  |          |          |          |          |
+|          | a [data  |          |          |          |          |
+|          | type     |          |          |          |          |
+|          | pers     |          |          |          |          |
+|          | pective] |          |          |          |          |
+|          | (https:/ |          |          |          |          |
+|          | /borocvi |          |          |          |          |
+|          | .atlassi |          |          |          |          |
+|          | an.net/w |          |          |          |          |
+|          | iki/spac |          |          |          |          |
+|          | es/SB/pa |          |          |          |          |
+|          | ges/5783 |          |          |          |          |
+|          | 355393/T |          |          |          |          |
+|          | tDT+-+Re |          |          |          |          |
+|          | port+-+A |          |          |          |          |
+|          | ppendix+ |          |          |          |          |
+|          | -+Refere |          |          |          |          |
+|          | nce+Icon |          |          |          |          |
+|          | ography+ |          |          |          |          |
+|          | -+Report |          |          |          |          |
+|          | #data-ty |          |          |          |          |
+|          | pe-persp |          |          |          |          |
+|          | ective &quot; |          |          |          |          |
+|          | https:// |          |          |          |          |
+|          | borocvi. |          |          |          |          |
+|          | atlassia |          |          |          |          |
+|          | n.net/wi |          |          |          |          |
+|          | ki/space |          |          |          |          |
+|          | s/SB/pag |          |          |          |          |
+|          | es/57833 |          |          |          |          |
+|          | 55393/Tt |          |          |          |          |
+|          | DT+-+Rep |          |          |          |          |
+|          | ort+-+Ap |          |          |          |          |
+|          | pendix+- |          |          |          |          |
+|          | +Referen |          |          |          |          |
+|          | ce+Icono |          |          |          |          |
+|          | graphy+- |          |          |          |          |
+|          | +Report# |          |          |          |          |
+|          | data-typ |          |          |          |          |
+|          | e-perspe |          |          |          |          |
+|          | ctive&quot;){ |          |          |          |          |
+|          | rel=&ldquo;nof |          |          |          |          |
+|          | ollow&rdquo;}. |          |          |          |          |
++&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+
+|          | [        | pipe     |          | This     |          |
+|          | ![](/Use |          |          | icon may |          |
+|          | rs/terra |          |          | be       |          |
+|          | ire/Down |          |          | adorned  |          |
+|          | loads/Tt |          |          | with a   |          |
+|          | DT/media |          |          | dataset  |          |
+|          | /img_166 |          |          | co       |          |
+|          | .png){.c |          |          | llection |          |
+|          | onfluenc |          |          | icon or  |          |
+|          | e-embedd |          |          | a        |          |
+|          | ed-image |          |          | dataset  |          |
+|          | .imag    |          |          | icon,    |          |
+|          | e-center |          |          | see      |          |
+|          | wid      |          |          | examples |          |
+|          | th=&ldquo;102&rdquo; |          |          | below:   |          |
+|          | height=  |          |          |          |          |
+|          | &ldquo;37&rdquo;}]{. |          |          | [        |          |
+|          | confluen |          |          | ![](/Use |          |
+|          | ce-embed |          |          | rs/terra |          |
+|          | ded-file |          |          | ire/Down |          |
+|          | -wrapper |          |          | loads/Tt |          |
+|          | .imag    |          |          | DT/media |          |
+|          | e-center |          |          | /img_167 |          |
+|          | -wrapper |          |          | .png){.c |          |
+|          | .        |          |          | onfluenc |          |
+|          | confluen |          |          | e-embedd |          |
+|          | ce-embed |          |          | ed-image |          |
+|          | ded-manu |          |          | .        |          |
+|          | al-size} |          |          | image-ce |          |
+|          |          |          |          | nter}]{. |          |
+|          |          |          |          | confluen |          |
+|          |          |          |          | ce-embed |          |
+|          |          |          |          | ded-file |          |
+|          |          |          |          | -wrapper |          |
+|          |          |          |          | .image   |          |
+|          |          |          |          | -center- |          |
+|          |          |          |          | wrapper} |          |
++&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+
+|          | [        | gate     |          |          | The gate |
+|          | ![](/Use |          |          |          | icon may |
+|          | rs/terra |          |          |          | adorn a  |
+|          | ire/Down |          |          |          | data set |
+|          | loads/Tt |          |          |          | co       |
+|          | DT/media |          |          |          | llection |
+|          | /img_168 |          |          |          | icon if  |
+|          | .png){.c |          |          |          | the data |
+|          | onfluenc |          |          |          | is       |
+|          | e-embedd |          |          |          | gated.   |
+|          | ed-image |          |          |          |          |
+|          | .imag    |          |          |          |          |
+|          | e-center |          |          |          |          |
+|          | wid      |          |          |          |          |
+|          | th=&ldquo;102&rdquo; |          |          |          |          |
+|          | height=  |          |          |          |          |
+|          | &ldquo;39&rdquo;}]{. |          |          |          |          |
+|          | confluen |          |          |          |          |
+|          | ce-embed |          |          |          |          |
+|          | ded-file |          |          |          |          |
+|          | -wrapper |          |          |          |          |
+|          | .imag    |          |          |          |          |
+|          | e-center |          |          |          |          |
+|          | -wrapper |          |          |          |          |
+|          | .        |          |          |          |          |
+|          | confluen |          |          |          |          |
+|          | ce-embed |          |          |          |          |
+|          | ded-manu |          |          |          |          |
+|          | al-size} |          |          |          |          |
++&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+
+:::</p>
+<p>[]{#Bookmark204}</p>
+<h2 id="Bookmark204">Filter-related icons</h2>
+<p>::: table-wrap
++&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+
+| <em><em>o      | <em><em>ico    | <em><em>ico    | *        | <em><em>ico    | <strong>ico    |
+| bjects</strong> | nography | nography | <em>notes</em></em> | nography | nography |
+|          | o        | object   |          | objects  | objects  |
+|          | bjects</em></em> | names</em></em>  |          | adorned  | adorning |
+|          |          |          |          | with     | &hellip;</em></em>    |
+|          |          |          |          | &hellip;</em>*    |          |
++&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+
+| []{#Book | [        | filter   | This     | -   the  |          |
+| mark205} | ![](/Use | (proc    | icon is  |          |          |
+|          | rs/terra | ess-type | used in  | bCLEARer |          |
+| ##       | ire/Down | pers     | a        |          |          |
+| ## filte | loads/Tt | pective) | [process |  nesting |          |
+| r {#Book | DT/media |          | type     |          |          |
+| mark205} | /img_169 |          | p        |    level |          |
+|          | .png){.c |          | erspecti |          |          |
+|          | onfluenc |          | ve](http |  palette |          |
+|          | e-embedd |          | s://boro |     s    |          |
+|          | ed-image |          | cvi.atla | pecifies |          |
+|          | .imag    |          | ssian.ne |     ba   |          |
+|          | e-center |          | t/wiki/s | ckground |          |
+|          | wid      |          | paces/SB |          |          |
+|          | th=&ldquo;102&rdquo; |          | /pages/5 |  colours |          |
+|          | height=  |          | 78335539 |     for  |          |
+|          | &ldquo;37&rdquo;}]{. |          | 3/TtDT+- |     this |          |
+|          | confluen |          | +Report+ |          |          |
+|          | ce-embed |          | -+Append |    icon: |          |
+|          | ded-file |          | ix+-+Ref |          |          |
+|          | -wrapper |          | erence+I | [        |          |
+|          | .imag    |          | conograp | ![](/Use |          |
+|          | e-center |          | hy+-+Rep | rs/terra |          |
+|          | -wrapper |          | ort#proc | ire/Down |          |
+|          | .        |          | ess-type | loads/Tt |          |
+|          | confluen |          | -perspec | DT/media |          |
+|          | ce-embed |          | tive &ldquo;ht | /img_170 |          |
+|          | ded-manu |          | tps://bo | .png){.c |          |
+|          | al-size} |          | rocvi.at | onfluenc |          |
+|          |          |          | lassian. | e-embedd |          |
+|          |          |          | net/wiki | ed-image |          |
+|          |          |          | /spaces/ | .imag    |          |
+|          |          |          | SB/pages | e-center |          |
+|          |          |          | /5783355 | wid      |          |
+|          |          |          | 393/TtDT | th=&ldquo;102&rdquo; |          |
+|          |          |          | +-+Repor | height=&rdquo; |          |
+|          |          |          | t+-+Appe | 259&quot;}]{. |          |
+|          |          |          | ndix+-+R | confluen |          |
+|          |          |          | eference | ce-embed |          |
+|          |          |          | +Iconogr | ded-file |          |
+|          |          |          | aphy+-+R | -wrapper |          |
+|          |          |          | eport#pr | .imag    |          |
+|          |          |          | ocess-ty | e-center |          |
+|          |          |          | pe-persp | -wrapper |          |
+|          |          |          | ective&quot;) | .        |          |
+|          |          |          | {rel=&ldquo;no | confluen |          |
+|          |          |          | follow&rdquo;} | ce-embed |          |
+|          |          |          | or a     | ded-manu |          |
+|          |          |          | [process | al-size} |          |
+|          |          |          | and data |          |          |
+|          |          |          | type     | -   the  |          |
+|          |          |          | per      |          |          |
+|          |          |          | spective |   filter |          |
+|          |          |          | ](https: |          |          |
+|          |          |          | //borocv |    (proc |          |
+|          |          |          | i.atlass | ess-type |          |
+|          |          |          | ian.net/ |     pers |          |
+|          |          |          | wiki/spa | pective) |          |
+|          |          |          | ces/SB/p |     icon |          |
+|          |          |          | ages/578 |     can  |          |
+|          |          |          | 3355393/ |     be   |          |
+|          |          |          | TtDT+-+R |          |          |
+|          |          |          | eport+-+ |  adorned |          |
+|          |          |          | Appendix |     with |          |
+|          |          |          | +-+Refer |     the  |          |
+|          |          |          | ence+Ico |          |          |
+|          |          |          | nography |   manual |          |
+|          |          |          | +-+Repor |          |          |
+|          |          |          | t#proces |    icon, |          |
+|          |          |          | s-and-da |     to   |          |
+|          |          |          | ta-type- |     s    |          |
+|          |          |          | perspect | ymbolise |          |
+|          |          |          | ive &ldquo;htt |     that |          |
+|          |          |          | ps://bor |     the  |          |
+|          |          |          | ocvi.atl |          |          |
+|          |          |          | assian.n |   filter |          |
+|          |          |          | et/wiki/ |          |          |
+|          |          |          | spaces/S | involves |          |
+|          |          |          | B/pages/ |          |          |
+|          |          |          | 57833553 |   manual |          |
+|          |          |          | 93/TtDT+ |          |          |
+|          |          |          | -+Report |    work, |          |
+|          |          |          | +-+Appen |          |          |
+|          |          |          | dix+-+Re |    e.g.: |          |
+|          |          |          | ference+ |          |          |
+|          |          |          | Iconogra |     [    |          |
+|          |          |          | phy+-+Re | ![](/Use |          |
+|          |          |          | port#pro | rs/terra |          |
+|          |          |          | cess-and | ire/Down |          |
+|          |          |          | -data-ty | loads/Tt |          |
+|          |          |          | pe-persp | DT/media |          |
+|          |          |          | ective&rdquo;) | /img_171 |          |
+|          |          |          | {rel=&ldquo;no | .png){.c |          |
+|          |          |          | follow&rdquo;} | onfluenc |          |
+|          |          |          |          | e-embedd |          |
+|          |          |          |          | ed-image |          |
+|          |          |          |          |          |          |
+|          |          |          |          |    .imag |          |
+|          |          |          |          | e-center |          |
+|          |          |          |          |     wid  |          |
+|          |          |          |          | th=&ldquo;102&rdquo; |          |
+|          |          |          |          |          |          |
+|          |          |          |          |  height= |          |
+|          |          |          |          | &ldquo;50&rdquo;}]{. |          |
+|          |          |          |          | confluen |          |
+|          |          |          |          | ce-embed |          |
+|          |          |          |          | ded-file |          |
+|          |          |          |          | -wrapper |          |
+|          |          |          |          |          |          |
+|          |          |          |          |    .imag |          |
+|          |          |          |          | e-center |          |
+|          |          |          |          | -wrapper |          |
+|          |          |          |          |     .    |          |
+|          |          |          |          | confluen |          |
+|          |          |          |          | ce-embed |          |
+|          |          |          |          | ded-manu |          |
+|          |          |          |          | al-size} |          |
++&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+
+|          | [        | filter   | This     |          |          |
+|          | ![](/Use | (d       | icon is  |          |          |
+|          | rs/terra | ata-type | used in  |          |          |
+|          | ire/Down | pers     | a        |          |          |
+|          | loads/Tt | pective) | [d       |          |          |
+|          | DT/media |          | ata-type |          |          |
+|          | /img_172 |          | pers     |          |          |
+|          | .png){.c |          | pective] |          |          |
+|          | onfluenc |          | (https:/ |          |          |
+|          | e-embedd |          | /borocvi |          |          |
+|          | ed-image |          | .atlassi |          |          |
+|          | .imag    |          | an.net/w |          |          |
+|          | e-center |          | iki/spac |          |          |
+|          | wid      |          | es/SB/pa |          |          |
+|          | th=&ldquo;102&rdquo; |          | ges/5783 |          |          |
+|          | height=  |          | 355393/T |          |          |
+|          | &ldquo;36&rdquo;}]{. |          | tDT+-+Re |          |          |
+|          | confluen |          | port+-+A |          |          |
+|          | ce-embed |          | ppendix+ |          |          |
+|          | ded-file |          | -+Refere |          |          |
+|          | -wrapper |          | nce+Icon |          |          |
+|          | .imag    |          | ography+ |          |          |
+|          | e-center |          | -+Report |          |          |
+|          | -wrapper |          | #data-ty |          |          |
+|          | .        |          | pe-persp |          |          |
+|          | confluen |          | ective &quot; |          |          |
+|          | ce-embed |          | https:// |          |          |
+|          | ded-manu |          | borocvi. |          |          |
+|          | al-size} |          | atlassia |          |          |
+|          |          |          | n.net/wi |          |          |
+|          |          |          | ki/space |          |          |
+|          |          |          | s/SB/pag |          |          |
+|          |          |          | es/57833 |          |          |
+|          |          |          | 55393/Tt |          |          |
+|          |          |          | DT+-+Rep |          |          |
+|          |          |          | ort+-+Ap |          |          |
+|          |          |          | pendix+- |          |          |
+|          |          |          | +Referen |          |          |
+|          |          |          | ce+Icono |          |          |
+|          |          |          | graphy+- |          |          |
+|          |          |          | +Report# |          |          |
+|          |          |          | data-typ |          |          |
+|          |          |          | e-perspe |          |          |
+|          |          |          | ctive&quot;){ |          |          |
+|          |          |          | rel=&ldquo;nof |          |          |
+|          |          |          | ollow&rdquo;}. |          |          |
++&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+
+|          |          | manual   |          |          |          |
++&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+
+:::</p>
+<p>[]{#Bookmark206}</p>
+<h2 id="Bookmark206">Pipeline</h2>
+<p>[]{#Bookmark207}</p>
+<h3 id="Bookmark207">Perspectives</h3>
+<p>::: table-wrap
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| <strong>objects</strong>                      | <strong>notes and examples</strong>           |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| []{#Bookmark208}                 | notes: in a process type         |
+|                                  | perspective, pipes are           |
+| #### process                     | represented with the pipe icon   |
+|  type perspective {#Bookmark208} | (adorned or unadorned with a     |
+|                                  | data icon) and filters are       |
+|                                  | represented with the filter      |
+|                                  | (process-type perspective) icon. |
+|                                  |                                  |
+|                                  | example 1:                       |
+|                                  |                                  |
+|                                  | [![](/Users/terra                |
+|                                  | ire/Downloads/TtDT/media/img_173 |
+|                                  | .png){.confluence-embedded-image |
+|                                  | .image-center width=&ldquo;340&rdquo;        |
+|                                  | height=&ldquo;53&rdquo;}]{.                  |
+|                                  | confluence-embedded-file-wrapper |
+|                                  | .image-center-wrapper            |
+|                                  | .                                |
+|                                  | confluence-embedded-manual-size} |
+|                                  |                                  |
+|                                  | example 2:                       |
+|                                  |                                  |
+|                                  | [![](/Users/terra                |
+|                                  | ire/Downloads/TtDT/media/img_174 |
+|                                  | .png){.confluence-embedded-image |
+|                                  | .image-center width=&ldquo;340&rdquo;        |
+|                                  | height=&ldquo;69&rdquo;}]{.                  |
+|                                  | confluence-embedded-file-wrapper |
+|                                  | .image-center-wrapper            |
+|                                  | .                                |
+|                                  | confluence-embedded-manual-size} |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| []{#Bookmark209}                 | notes: in a dataset type         |
+|                                  | perspective, pipes are           |
+| #### data                        | represented with the data icons  |
+|  type perspective {#Bookmark209} | (dataset collection icon or a    |
+|                                  | dataset icon). Filters are       |
+|                                  | represented with the filter      |
+|                                  | (data-type perspective) icon.    |
+|                                  |                                  |
+|                                  | example:                         |
+|                                  |                                  |
+|                                  | [![](/Users/terra                |
+|                                  | ire/Downloads/TtDT/media/img_175 |
+|                                  | .png){.confluence-embedded-image |
+|                                  | .image-center width=&ldquo;340&rdquo;        |
+|                                  | height=&ldquo;68&rdquo;}]{.                  |
+|                                  | confluence-embedded-file-wrapper |
+|                                  | .image-center-wrapper            |
+|                                  | .                                |
+|                                  | confluence-embedded-manual-size} |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+:::</p>
+<p>[]{#Bookmark210}</p>
+<h3 id="Bookmark210">Simple pipeline</h3>
+<p>::: table-wrap
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| <strong>diagrams</strong>                     | <strong>notes and examples</strong>           |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| []{#Bookmark211}                 | notes: a simple pipeline diagram |
+|                                  | is obtained by combining         |
+| #### simple                      | pipe-related and filter-related  |
+|  pipeline diagram {#Bookmark211} | icons, according to one of the   |
+|                                  | above-listed                     |
+|                                  | [perspectives                    |
+|                                  | ](<a href="https://borocvi.atlassian.net/">https://borocvi.atlassian.net/</a> |
+|                                  | wiki/spaces/SB/pages/5783355393/ |
+|                                  | TtDT+-+Report+-+Appendix+-+Refer |
+|                                  | ence+Iconography+-+Report#Perspe |
+|                                  | ctives &ldquo;<a href="https://borocvi.atlassia">https://borocvi.atlassia</a> |
+|                                  | n.net/wiki/spaces/SB/pages/57833 |
+|                                  | 55393/TtDT+-+Report+-+Appendix+- |
+|                                  | +Reference+Iconography+-+Report# |
+|                                  | Perspectives&rdquo;){rel=&ldquo;nofollow&rdquo;}.\ |
+|                                  | It may include a process time    |
+|                                  | icon.                            |
+|                                  |                                  |
+|                                  | example 1 (with a process type   |
+|                                  | perspective):                    |
+|                                  |                                  |
+|                                  | [![](/Users/terra                |
+|                                  | ire/Downloads/TtDT/media/img_176 |
+|                                  | .png){.confluence-embedded-image |
+|                                  | .image-center}]{.                |
+|                                  | confluence-embedded-file-wrapper |
+|                                  | .image-center-wrapper}           |
+|                                  |                                  |
+|                                  | [example 2 (with a data type     |
+|                                  | persp                            |
+|                                  | ective):]{.inline-comment-marker |
+|                                  | ref=&ldquo;d6ac700                     |
+|                                  | 7-34d2-4d30-a504-f88df0cb037f&rdquo;}\ |
+|                                  |                                  |
+|                                  | [![](/Users/terra                |
+|                                  | ire/Downloads/TtDT/media/img_177 |
+|                                  | .png){.confluence-embedded-image |
+|                                  | .image-center}]{.                |
+|                                  | confluence-embedded-file-wrapper |
+|                                  | .image-center-wrapper}           |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+:::</p>
+<p>::: table-wrap
++&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+
+| <em><em>o      | <em><em>ico    | <em><em>ico    | *        | <em><em>ico    | <strong>ico    |
+| bjects</strong> | nography | nography | <em>notes</em></em> | nography | nography |
+|          | o        | object   |          | objects  | objects  |
+|          | bjects</em></em> | names</em></em>  |          | adorned  | adorning |
+|          |          |          |          | with     | &hellip;</em></em>    |
+|          |          |          |          | &hellip;</em>*    |          |
++&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+
+| []{#Book | [        | process  |          |          |          |
+| mark212} | ![](/Use | time     |          |          |          |
+|          | rs/terra |          |          |          |          |
+| #### pro | ire/Down |          |          |          |          |
+| cess tim | loads/Tt |          |          |          |          |
+| e {#Book | DT/media |          |          |          |          |
+| mark212} | /img_178 |          |          |          |          |
+|          | .png){.c |          |          |          |          |
+|          | onfluenc |          |          |          |          |
+|          | e-embedd |          |          |          |          |
+|          | ed-image |          |          |          |          |
+|          | .        |          |          |          |          |
+|          | image-ce |          |          |          |          |
+|          | nter}]{. |          |          |          |          |
+|          | confluen |          |          |          |          |
+|          | ce-embed |          |          |          |          |
+|          | ded-file |          |          |          |          |
+|          | -wrapper |          |          |          |          |
+|          | .image   |          |          |          |          |
+|          | -center- |          |          |          |          |
+|          | wrapper} |          |          |          |          |
++&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+
+:::</p>
+<p>[]{#Bookmark213}</p>
+<h2 id="Bookmark213">Nesting</h2>
+<p>[]{#Bookmark214}</p>
+<h3 id="Bookmark214">Nested pipeline diagram</h3>
+<p>::: table-wrap
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| <strong>diagrams</strong>                     | <strong>notes and examples</strong>           |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| []{#Bookmark215}                 | [notes: A nested pipeline        |
+|                                  | diagram shows the evolution of a |
+| #### nested                      | sub-pipeline into a nested       |
+|  pipeline diagram {#Bookmark215} | pipeline; it represents the      |
+|                                  | &quot;external layer&quot; of the        |
+|                                  | pipeline at each                 |
+|                                  | stage.]{                         |
+|                                  | style=&ldquo;color: rgb(255,86,48);&rdquo;}\ |
+|                                  | [The pipeline chunk that         |
+|                                  | encapsulates filter and pipe     |
+|                                  | components at a stage in the     |
+|                                  | evolution aligns with the        |
+|                                  | encapsulated components from the |
+|                                  | previous                         |
+|                                  | stage.]{                         |
+|                                  | style=&ldquo;color: rgb(255,86,48);&rdquo;}\ |
+|                                  | The diagram includes [evolution, |
+|                                  | subpipeline and encapsulation    |
+|                                  | icons.]                          |
+|                                  | {style=&ldquo;color: rgb(255,86,48);&rdquo;} |
+|                                  |                                  |
+|                                  | example:\                        |
+|                                  | \                                |
+|                                  |                                  |
+|                                  | [![](/Users/terra                |
+|                                  | ire/Downloads/TtDT/media/img_179 |
+|                                  | .png){.confluence-embedded-image |
+|                                  | .image-center}]{.                |
+|                                  | confluence-embedded-file-wrapper |
+|                                  | .image-center-wrapper}           |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+:::</p>
+<p>::: table-wrap</p>
+<hr>
+<p><strong>objects</strong>     <strong>iconography objects</strong>                                                                                                                                      <strong>iconography object names</strong>   <strong>notes</strong>   <strong>iconography objects adorned with &hellip;</strong>   <strong>iconography objects adorning &hellip;</strong>
+encapsulation   [<img src="/Users/terraire/Downloads/TtDT/media/img_180.png" alt="">{.confluence-embedded-image .image-center}]{.confluence-embedded-file-wrapper .image-center-wrapper}   encapsulation                                                                      <br>
+sub-pipeline    [<img src="/Users/terraire/Downloads/TtDT/media/img_181.png" alt="">{.confluence-embedded-image .image-center}]{.confluence-embedded-file-wrapper .image-center-wrapper}   sub-pipeline</p>
+<hr>
+<p>:::</p>
+<p>[]{#Bookmark216}</p>
+<h3 id="Bookmark216">Nesting diagram</h3>
+<p>::: table-wrap
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| <strong>diagrams</strong>                     | <strong>notes and examples</strong>           |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| []{#Bookmark217}                 | [notes: a nesting diagram is a   |
+|                                  | &quot;see-through&quot; representation   |
+| ###                              | of the different levels of       |
+| # nesting diagram {#Bookmark217} | nesting within a nested          |
+|                                  | pipeline]{                       |
+|                                  | style=&ldquo;color: rgb(255,86,48);&rdquo;}\ |
+|                                  | The diagram includes [container  |
+|                                  | icons.]                          |
+|                                  | {style=&ldquo;color: rgb(255,86,48);&rdquo;} |
+|                                  |                                  |
+|                                  | example:                         |
+|                                  |                                  |
+|                                  | [![](/Users/terra                |
+|                                  | ire/Downloads/TtDT/media/img_182 |
+|                                  | .png){.confluence-embedded-image |
+|                                  | .image-center}]{.                |
+|                                  | confluence-embedded-file-wrapper |
+|                                  | .image-center-wrapper}           |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+:::</p>
+<p>::: table-wrap
++&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+
+| <em><em>o      | <em><em>ico    | <em><em>ico    | *        | <em><em>ico    | <strong>ico    |
+| bjects</strong> | nography | nography | <em>notes</em></em> | nography | nography |
+|          | o        | object   |          | objects  | objects  |
+|          | bjects</em></em> | names</em></em>  |          | adorned  | adorning |
+|          |          |          |          | with     | &hellip;</em></em>    |
+|          |          |          |          | &hellip;</em>*    |          |
++&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+
+| []{#Book | [        | c        |          | -   the  | \        |
+| mark218} | ![](/Use | ontainer |          |          |          |
+|          | rs/terra |          |          | bCLEARer |          |
+| ####     | ire/Down |          |          |          |          |
+| containe | loads/Tt |          |          |  nesting |          |
+| r {#Book | DT/media |          |          |          |          |
+| mark218} | /img_183 |          |          |    level |          |
+|          | .png){.c |          |          |          |          |
+|          | onfluenc |          |          |  palette |          |
+|          | e-embedd |          |          |     s    |          |
+|          | ed-image |          |          | pecifies |          |
+|          | .        |          |          |     ba   |          |
+|          | image-ce |          |          | ckground |          |
+|          | nter}]{. |          |          |          |          |
+|          | confluen |          |          |  colours |          |
+|          | ce-embed |          |          |     for  |          |
+|          | ded-file |          |          |     this |          |
+|          | -wrapper |          |          |          |          |
+|          | .image   |          |          |   icon:\ |          |
+|          | -center- |          |          |          |          |
+|          | wrapper} |          |          |     [    |          |
+|          |          |          |          | ![](/Use |          |
+|          |          |          |          | rs/terra |          |
+|          |          |          |          | ire/Down |          |
+|          |          |          |          | loads/Tt |          |
+|          |          |          |          | DT/media |          |
+|          |          |          |          | /img_184 |          |
+|          |          |          |          | .png){.c |          |
+|          |          |          |          | onfluenc |          |
+|          |          |          |          | e-embedd |          |
+|          |          |          |          | ed-image |          |
+|          |          |          |          |     .    |          |
+|          |          |          |          | image-ce |          |
+|          |          |          |          | nter}]{. |          |
+|          |          |          |          | confluen |          |
+|          |          |          |          | ce-embed |          |
+|          |          |          |          | ded-file |          |
+|          |          |          |          | -wrapper |          |
+|          |          |          |          |          |          |
+|          |          |          |          |   .image |          |
+|          |          |          |          | -center- |          |
+|          |          |          |          | wrapper} |          |
++&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;-+
+:::</p>
+<p>[]{#Bookmark219}</p>
+<h3 id="Bookmark219">Inter-diagram mapping</h3>
+<p>::: table-wrap
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| <strong>diagrams</strong>                     | <strong>notes and examples</strong>           |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| []{#Bookmark220}                 | [notes: the nested pipeline      |
+|                                  | diagram and the nesting diagram  |
+| #### [co                         | provide complementary views on   |
+| rresponding nested pipeline and  | nesting. The nested pipeline     |
+| nesting diagrams]{style=&ldquo;color:  | diagram represents the           |
+| rgb(255,86,48);&rdquo;} {#Bookmark220} | &quot;external layer&quot; of the        |
+|                                  | pipeline at each stage of the    |
+|                                  | nesting evolution, while the     |
+|                                  | nesting diagram represents the   |
+|                                  | post-nesting stage only, with a  |
+|                                  | view on the external layer and   |
+|                                  | internal layer(s) of the         |
+|                                  | pipeline.                        |
+|                                  | ]                                |
+|                                  | {style=&ldquo;color: rgb(255,86,48);&rdquo;} |
+|                                  |                                  |
+|                                  | [below is an example of          |
+|                                  | corresponding nested pipeline    |
+|                                  | and nesting                      |
+|                                  | diagrams:]                       |
+|                                  | {style=&ldquo;color: rgb(255,86,48);&rdquo;} |
+|                                  |                                  |
+|                                  | [![](/Users/terra                |
+|                                  | ire/Downloads/TtDT/media/img_185 |
+|                                  | .png){.confluence-embedded-image |
+|                                  | .image-center}]{.                |
+|                                  | confluence-embedded-file-wrapper |
+|                                  | .image-                          |
+|                                  | center-wrapper}[![](/Users/terra |
+|                                  | ire/Downloads/TtDT/media/img_186 |
+|                                  | .png){.confluence-embedded-image |
+|                                  | .image-center}]{.                |
+|                                  | confluence-embedded-file-wrapper |
+|                                  | .image-center-wrapper}           |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+:::
+:::
+:::
+:::
+:::</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://example.org/" >
+    &copy;  My New Hugo Site 2023 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

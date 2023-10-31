@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>My New Hugo Site</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="::: full-height-container ::: {#sidebar .split} ::: {#search .navgroup} :::
+::: {#navigation .navgroup}
+CLEAN CLIFcode Image TtDT - Report TtDT - Report - Introduction TtDT - Report - A resilient approach TtDT - Report - A resilient, transparent bCLEARer pipeline architecture TtDT - Report - bCLEARer&#39;s pipeline or pipe-and-filter architecture TtDT - Report - bCLEARer&#39;s nested gated pipeline architecture TtDT - Report - bCLEARer pipeline&#39;s three nesting levels TtDT - Report - bCLEARer pipeline - general design TtDT - Report - Building resilient transformation transparency into the bCLEARer pipeline TtDT - Report - Building resilient dataset transformation transparency TtDT - Report - Building resilient data item transformation transparency TtDT - Report - Appendices TtDT - Report - Appendix - Process: principles versus rules TtDT - Report - Appendix - bH - bHashing and bSumming TtDT - Report - Appendix - cohesion and coupling TtDT - Report - Appendix - separation of concerns principle TtDT - Report - Appendix - immutability and idempotence principle TtDT - Report - Appendix - single-transformation (responsibility) principle (STP) TtDT - Report - Appendix - Aggregated S(ingle) S(ource) O(f) T(ruth) TtDT - Report - Appendix - design patterns and anti-patterns TtDT - Report - Appendix - Glossary of Major Terms TtDT - Report - Appendix - Glossary of Major Terms - Report TtDT - Report - Appendix - Glossary of Major Terms - Research TtDT - Report - Appendix - Reference Iconography TtDT - Report - Appendix - Reference Iconography - Report TtDT - Report - Appendix - Reference Iconography - Report - Pipeline architecture TtDT - Report - Appendix - Reference Iconography - Report - Life history TtDT - Report - Appendix - Reference Iconography - Report - Inter-diagram mapping TtDT - Report - Appendix - Reference Iconography - Report - Common TtDT - Report - Appendix - Reference Iconography - Research TtDT - Report - Appendix - Reference Iconography - Report - Pipeline architecture _ archive 30/01/23 TtDT - Report - Appendix - The standard &#39;Pipeline&#39; or &#39;Pipe-and-Filter&#39; Architecture TtDT - Report - References TtDT - Report - Acknowledgements ::: ::: ::: {#content .">
+    <meta name="generator" content="Hugo 0.119.0">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+    
+    
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="" />
+<meta property="og:description" content="::: full-height-container ::: {#sidebar .split} ::: {#search .navgroup} :::
+::: {#navigation .navgroup}
+CLEAN CLIFcode Image TtDT - Report TtDT - Report - Introduction TtDT - Report - A resilient approach TtDT - Report - A resilient, transparent bCLEARer pipeline architecture TtDT - Report - bCLEARer&#39;s pipeline or pipe-and-filter architecture TtDT - Report - bCLEARer&#39;s nested gated pipeline architecture TtDT - Report - bCLEARer pipeline&#39;s three nesting levels TtDT - Report - bCLEARer pipeline - general design TtDT - Report - Building resilient transformation transparency into the bCLEARer pipeline TtDT - Report - Building resilient dataset transformation transparency TtDT - Report - Building resilient data item transformation transparency TtDT - Report - Appendices TtDT - Report - Appendix - Process: principles versus rules TtDT - Report - Appendix - bH - bHashing and bSumming TtDT - Report - Appendix - cohesion and coupling TtDT - Report - Appendix - separation of concerns principle TtDT - Report - Appendix - immutability and idempotence principle TtDT - Report - Appendix - single-transformation (responsibility) principle (STP) TtDT - Report - Appendix - Aggregated S(ingle) S(ource) O(f) T(ruth) TtDT - Report - Appendix - design patterns and anti-patterns TtDT - Report - Appendix - Glossary of Major Terms TtDT - Report - Appendix - Glossary of Major Terms - Report TtDT - Report - Appendix - Glossary of Major Terms - Research TtDT - Report - Appendix - Reference Iconography TtDT - Report - Appendix - Reference Iconography - Report TtDT - Report - Appendix - Reference Iconography - Report - Pipeline architecture TtDT - Report - Appendix - Reference Iconography - Report - Life history TtDT - Report - Appendix - Reference Iconography - Report - Inter-diagram mapping TtDT - Report - Appendix - Reference Iconography - Report - Common TtDT - Report - Appendix - Reference Iconography - Research TtDT - Report - Appendix - Reference Iconography - Report - Pipeline architecture _ archive 30/01/23 TtDT - Report - Appendix - The standard &#39;Pipeline&#39; or &#39;Pipe-and-Filter&#39; Architecture TtDT - Report - References TtDT - Report - Acknowledgements ::: ::: ::: {#content ." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/page5765136857/" /><meta property="article:section" content="posts" />
+
+
+<meta itemprop="name" content="">
+<meta itemprop="description" content="::: full-height-container ::: {#sidebar .split} ::: {#search .navgroup} :::
+::: {#navigation .navgroup}
+CLEAN CLIFcode Image TtDT - Report TtDT - Report - Introduction TtDT - Report - A resilient approach TtDT - Report - A resilient, transparent bCLEARer pipeline architecture TtDT - Report - bCLEARer&#39;s pipeline or pipe-and-filter architecture TtDT - Report - bCLEARer&#39;s nested gated pipeline architecture TtDT - Report - bCLEARer pipeline&#39;s three nesting levels TtDT - Report - bCLEARer pipeline - general design TtDT - Report - Building resilient transformation transparency into the bCLEARer pipeline TtDT - Report - Building resilient dataset transformation transparency TtDT - Report - Building resilient data item transformation transparency TtDT - Report - Appendices TtDT - Report - Appendix - Process: principles versus rules TtDT - Report - Appendix - bH - bHashing and bSumming TtDT - Report - Appendix - cohesion and coupling TtDT - Report - Appendix - separation of concerns principle TtDT - Report - Appendix - immutability and idempotence principle TtDT - Report - Appendix - single-transformation (responsibility) principle (STP) TtDT - Report - Appendix - Aggregated S(ingle) S(ource) O(f) T(ruth) TtDT - Report - Appendix - design patterns and anti-patterns TtDT - Report - Appendix - Glossary of Major Terms TtDT - Report - Appendix - Glossary of Major Terms - Report TtDT - Report - Appendix - Glossary of Major Terms - Research TtDT - Report - Appendix - Reference Iconography TtDT - Report - Appendix - Reference Iconography - Report TtDT - Report - Appendix - Reference Iconography - Report - Pipeline architecture TtDT - Report - Appendix - Reference Iconography - Report - Life history TtDT - Report - Appendix - Reference Iconography - Report - Inter-diagram mapping TtDT - Report - Appendix - Reference Iconography - Report - Common TtDT - Report - Appendix - Reference Iconography - Research TtDT - Report - Appendix - Reference Iconography - Report - Pipeline architecture _ archive 30/01/23 TtDT - Report - Appendix - The standard &#39;Pipeline&#39; or &#39;Pipe-and-Filter&#39; Architecture TtDT - Report - References TtDT - Report - Acknowledgements ::: ::: ::: {#content .">
+
+<meta itemprop="wordCount" content="3320">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content=""/>
+<meta name="twitter:description" content="::: full-height-container ::: {#sidebar .split} ::: {#search .navgroup} :::
+::: {#navigation .navgroup}
+CLEAN CLIFcode Image TtDT - Report TtDT - Report - Introduction TtDT - Report - A resilient approach TtDT - Report - A resilient, transparent bCLEARer pipeline architecture TtDT - Report - bCLEARer&#39;s pipeline or pipe-and-filter architecture TtDT - Report - bCLEARer&#39;s nested gated pipeline architecture TtDT - Report - bCLEARer pipeline&#39;s three nesting levels TtDT - Report - bCLEARer pipeline - general design TtDT - Report - Building resilient transformation transparency into the bCLEARer pipeline TtDT - Report - Building resilient dataset transformation transparency TtDT - Report - Building resilient data item transformation transparency TtDT - Report - Appendices TtDT - Report - Appendix - Process: principles versus rules TtDT - Report - Appendix - bH - bHashing and bSumming TtDT - Report - Appendix - cohesion and coupling TtDT - Report - Appendix - separation of concerns principle TtDT - Report - Appendix - immutability and idempotence principle TtDT - Report - Appendix - single-transformation (responsibility) principle (STP) TtDT - Report - Appendix - Aggregated S(ingle) S(ource) O(f) T(ruth) TtDT - Report - Appendix - design patterns and anti-patterns TtDT - Report - Appendix - Glossary of Major Terms TtDT - Report - Appendix - Glossary of Major Terms - Report TtDT - Report - Appendix - Glossary of Major Terms - Research TtDT - Report - Appendix - Reference Iconography TtDT - Report - Appendix - Reference Iconography - Report TtDT - Report - Appendix - Reference Iconography - Report - Pipeline architecture TtDT - Report - Appendix - Reference Iconography - Report - Life history TtDT - Report - Appendix - Reference Iconography - Report - Inter-diagram mapping TtDT - Report - Appendix - Reference Iconography - Report - Common TtDT - Report - Appendix - Reference Iconography - Research TtDT - Report - Appendix - Reference Iconography - Report - Pipeline architecture _ archive 30/01/23 TtDT - Report - Appendix - The standard &#39;Pipeline&#39; or &#39;Pipe-and-Filter&#39; Architecture TtDT - Report - References TtDT - Report - Acknowledgements ::: ::: ::: {#content ."/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        My New Hugo Site
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        POSTS
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1"></h1>
+      
+      
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>::: full-height-container
+::: {#sidebar .split}
+::: {#search .navgroup}
+:::</p>
+<p>::: {#navigation .navgroup}</p>
+<ul>
+<li><a href="http://example.org/posts/page5501091875/">CLEAN CLIFcode Image</a></li>
+<li><a href="http://example.org/posts/page5766283265/">TtDT - Report</a>
+<ul>
+<li><a href="http://example.org/posts/page5765071213/">TtDT - Report - Introduction</a></li>
+<li><a href="http://example.org/posts/page5769560149/">TtDT - Report - A resilient approach</a></li>
+<li><a href="http://example.org/posts/page5766316210/">TtDT - Report - A resilient, transparent bCLEARer pipeline
+architecture</a>
+<ul>
+<li><a href="http://example.org/posts/page5773230168/">TtDT - Report - bCLEARer's pipeline or pipe-and-filter
+architecture</a></li>
+<li><a href="http://example.org/posts/page5773656071/">TtDT - Report - bCLEARer's nested gated pipeline
+architecture</a></li>
+<li><a href="http://example.org/posts/page5766545422/">TtDT - Report - bCLEARer pipeline's three nesting
+levels</a></li>
+<li><a href="http://example.org/posts/page5775163422/">TtDT - Report - bCLEARer pipeline - general
+design</a></li>
+</ul>
+</li>
+<li><a href="http://example.org/posts/page5769494532/">TtDT - Report - Building resilient transformation transparency
+into the bCLEARer pipeline</a>
+<ul>
+<li>TtDT - Report - Building resilient dataset transformation
+transparency</li>
+<li><a href="http://example.org/posts/page5766316201/">TtDT - Report - Building resilient data item transformation
+transparency</a></li>
+</ul>
+</li>
+<li><a href="http://example.org/posts/page5768675336/">TtDT - Report - Appendices</a>
+<ul>
+<li><a href="http://example.org/posts/page5769003012/">TtDT - Report - Appendix - Process: principles versus
+rules</a></li>
+<li><a href="http://example.org/posts/page5768839184/">TtDT - Report - Appendix - bH - bHashing and
+bSumming</a></li>
+<li><a href="http://example.org/posts/page5772804097/">TtDT - Report - Appendix - cohesion and
+coupling</a></li>
+<li><a href="http://example.org/posts/page5772804106/">TtDT - Report - Appendix - separation of concerns
+principle</a></li>
+<li><a href="http://example.org/posts/page5772869633/">TtDT - Report - Appendix - immutability and idempotence
+principle</a></li>
+<li><a href="http://example.org/posts/page5772804114/">TtDT - Report - Appendix - single-transformation
+(responsibility) principle (STP)</a></li>
+<li><a href="http://example.org/posts/page5773328385/">TtDT - Report - Appendix - Aggregated S(ingle) S(ource)
+O(f) T(ruth)</a></li>
+<li><a href="http://example.org/posts/page5775982593/">TtDT - Report - Appendix - design patterns and
+anti-patterns</a></li>
+<li><a href="http://example.org/posts/page5780340771/">TtDT - Report - Appendix - Glossary of Major
+Terms</a>
+<ul>
+<li><a href="http://example.org/posts/page5793284135/">TtDT - Report - Appendix - Glossary of Major Terms -
+Report</a></li>
+<li><a href="http://example.org/posts/page5793218610/">TtDT - Report - Appendix - Glossary of Major Terms -
+Research</a></li>
+</ul>
+</li>
+<li><a href="http://example.org/posts/page5784010894/">TtDT - Report - Appendix - Reference
+Iconography</a>
+<ul>
+<li><a href="http://example.org/posts/page5783355393/">TtDT - Report - Appendix - Reference Iconography -
+Report</a>
+<ul>
+<li><a href="http://example.org/posts/page5797249025/">TtDT - Report - Appendix - Reference Iconography -
+Report - Pipeline architecture</a></li>
+<li><a href="http://example.org/posts/page5796298761/">TtDT - Report - Appendix - Reference Iconography -
+Report - Life history</a></li>
+<li><a href="http://example.org/posts/page5796299378/">TtDT - Report - Appendix - Reference Iconography -
+Report - Inter-diagram mapping</a></li>
+<li><a href="http://example.org/posts/page5796299991/">TtDT - Report - Appendix - Reference Iconography -
+Report - Common</a></li>
+</ul>
+</li>
+<li><a href="http://example.org/posts/page5785092097/">TtDT - Report - Appendix - Reference Iconography -
+Research</a>
+<ul>
+<li><a href="http://example.org/posts/page5796331521/">TtDT - Report - Appendix - Reference Iconography -
+Report - Pipeline architecture _ archive
+30/01/23</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="http://example.org/posts/page5784338433/">TtDT - Report - Appendix - The standard 'Pipeline' or
+'Pipe-and-Filter' Architecture</a></li>
+</ul>
+</li>
+<li><a href="http://example.org/posts/page5766578192/">TtDT - Report - References</a></li>
+<li><a href="http://example.org/posts/page5766545409/">TtDT - Report - Acknowledgements</a>
+:::
+:::</li>
+</ul>
+</li>
+</ul>
+<p>::: {#content .split}
+::: wiki-page
+::: wiki-title</p>
+<h1 id="Bookmark56" class="page-title-lvl-cover">TtDT - Report - Building resilient dataset transformation transparency</h1>
+<p>:::</p>
+<p>::: wiki-content
+[]{#Bookmark57}</p>
+<h1 id="Bookmark57">Introduction</h1>
+<p>bCLEARer stage pipelines work at the level of datasets rather than
+dataset collections and so have a structure that offers substantially
+more opportunities for accounting. In this section the focus is on
+building transformation transparency for those datasets.</p>
+<p>After a section setting the scene, the following topics are covered:</p>
+<ul>
+<li>
+<p>firstly, a general notion of algorithmic identity, from which
+difference and so transformation can be established, and</p>
+</li>
+<li>
+<p>secondly, how to implement transparency in the individual bCLEARer
+stage pipelines through tracking, tracing and testing
+transformations.</p>
+</li>
+</ul>
+<p>The discussion of the second topic is divided into three sections:</p>
+<ol>
+<li>
+<p>mapping tracking of intended identities</p>
+</li>
+<li>
+<p>mapping tracing of intended changing identities</p>
+</li>
+<li>
+<p>testing tracking and tracing for actual executions</p>
+</li>
+</ol>
+<p>[]{#Bookmark58}</p>
+<h1 id="Bookmark58">Setting the scene</h1>
+<p>The bCLEARer stage is designed as a sequence of bUnit [process
+]{.inline-comment-marker
+ref=&ldquo;175eab42-9f32-43f8-adf1-1211df4514d7&rdquo;}types &ndash; the bUnit flow &ndash;
+which may or may not be organised into sub-pipelines within the stage.
+It is important that this flow is not only transparent, open to
+inspection, but that the transparency is also resilient in the face of
+change.</p>
+<p>A bUnit process type can be characterised as a type of process that
+consumes one or more (input) [dataset ]{.inline-comment-marker
+ref=&ldquo;1bffc318-09ce-4587-a91f-806063792ffc&rdquo;}types and produces one or
+more new (output) [dataset ]{.inline-comment-marker
+ref=&ldquo;1469d260-110b-438e-8174-ac1eff4f87ea&rdquo;}types. At this level, unlike
+the higher levels which work with dataset collections, dataset types are
+individuated, where each dataset type is picked out as separate. So
+process types have associated flow mappings &ndash; mappings from the
+individual input dataset type and to the individual output dataset type.</p>
+<p>The components of the bUnit flow, the bUnit process and dataset types,
+are identified using a name, typically reflecting its function, that is
+unique within the bUnit, which is often supplemented with a project-wide
+(code) identifier. When the bUnit dataset flow is run, the run is given
+an identifier. The datasets and processes in the run are identified by
+the combination of the type identifier and the run identifier.</p>
+<p>In the context of bUnit flow, a dataset is a collection of data items in
+a common format &ndash; where a data item is a single unit of data. A tabular
+row dataset &ndash; a common type of dataset &ndash; is a table where the data
+items are the rows (these rows have an internal structure/content stored
+in cells based upon the table's columns). Another common case is a
+tabular cell dataset where the data items are the table&rsquo;s cells
+themselves.</p>
+<p>One can visualise the bUnit flow in a number of ways. Firstly, from the
+perspective of the process types &ndash; see below.</p>
+<p>[<img src="/Users/terraire/Downloads/TtDT/media/img_48.png" alt="">{.confluence-embedded-image
+.image-center width=&ldquo;442&rdquo;
+height=&ldquo;69&rdquo;}]{.confluence-embedded-file-wrapper .image-center-wrapper
+.confluence-embedded-manual-size}</p>
+<p>Secondly from the perspective of process and dataset types, where the
+pipes are adorned with a dataset icon &ndash; see below.</p>
+<p>[<img src="/Users/terraire/Downloads/TtDT/media/img_49.png" alt="">{.confluence-embedded-image
+.image-center width=&ldquo;442&rdquo;
+height=&ldquo;90&rdquo;}]{.confluence-embedded-file-wrapper .image-center-wrapper
+.confluence-embedded-manual-size}</p>
+<p>And finally from a pure dataset type perspective, a bUnit dataset flow,
+showing a sequence of datasets &ndash; see below.</p>
+<p>[<img src="/Users/terraire/Downloads/TtDT/media/img_50.png" alt="">{.confluence-embedded-image
+.image-center width=&ldquo;442&rdquo;
+height=&ldquo;89&rdquo;}]{.confluence-embedded-file-wrapper .image-center-wrapper
+.confluence-embedded-manual-size}[]{#Bookmark59}</p>
+<h1 id="Bookmark59">A general notion of algorithmic dataset identity</h1>
+<p>In the bCLEARer stage pipeline design process, one defines (and so, in
+this scheme of things, gives identity to) bUnit dataset types and their
+associated bUnit filter types. In the diagram below, &lsquo;dataset 1&rsquo; and
+&lsquo;dataset 2' are bUnit dataset types associated with bUnit filter type
+'filter A&rsquo;. These names help humans keep track of the identities for
+the bUnit datasets and process types. In the implementation there will
+be internal identifiers corresponding to these for the computer to use.</p>
+<p>[<img src="/Users/terraire/Downloads/TtDT/media/img_51.png" alt="">{.confluence-embedded-image
+.image-center width=&ldquo;442&rdquo;
+height=&ldquo;90&rdquo;}]{.confluence-embedded-file-wrapper .image-center-wrapper
+.confluence-embedded-manual-size}</p>
+<p>Filters are where transformations happen. From the perspective of
+datasets, we can be more specific and locate it as a property of the
+relation between a filter's input dataset and output dataset &ndash; a
+filter-dataset flow. This is perhaps more easily visualised when the
+flow is seen from the dataset perspective, as in the diagram below.</p>
+<p>[<img src="/Users/terraire/Downloads/TtDT/media/img_52.png" alt="">{.confluence-embedded-image
+.image-center}]{.confluence-embedded-file-wrapper .image-center-wrapper}</p>
+<p>So the starting point for inspecting dataset transformations is these
+filter-dataset flows. To make them more concrete we can list them in a
+table &ndash; as done below.</p>
+<p>::: table-wrap</p>
+<hr>
+<p><strong>bUnit process</strong>   <strong>bUnit input</strong>   <strong>bUnit output</strong>
+filter A            dataset 1         dataset 2</p>
+<hr>
+<p>:::</p>
+<p>To enable tracking and tracing of dataset transformations one firstly
+needs to identify the types of dataset identities that are to be tracked
+and traced. Then one can ask for their filter-dataset flows, showing
+where these identities are preserved.</p>
+<p>The two core types of algorithmic dataset identity bCLEARer works with
+at the moment are:</p>
+<ol>
+<li>
+<p>dataset item identity</p>
+</li>
+<li>
+<p>dataset item immutable stage identity</p>
+</li>
+</ol>
+<p>As these are all algorithmic identities, they can be tested
+automatically. bCLEARer implements these algorithms using
+[counts]{.inline-comment-marker
+ref=&ldquo;71b21519-489a-48cf-b05d-c6bda4d127a2&rdquo;}, sums and hashes (which are
+described here: <a href="page5768839184.md#Bookmark95" title="TtDT - Report - Appendix - bH - bHashing and bSumming">TtDT - Report - Appendix - bH - bHashing and
+bSumming</a>{linked-resource-id=&ldquo;5768839184&rdquo;
+linked-resource-version=&ldquo;4&rdquo; linked-resource-type=&ldquo;page&rdquo;}) and stores
+them as metadata on all the bUnit datasets. This makes it easy to test
+for unexpected differences.</p>
+<p>These identities are described below.</p>
+<p>[]{#Bookmark60}</p>
+<h2 id="Bookmark60">Dataset item identity</h2>
+<p>The first type of algorithmic identity is dataset item identity. This is
+based upon immutability of the collected data items' identities. In a
+bUnit filter where an input dataset type is intended to have a
+corresponding output dataset type that collects exactly the &lsquo;same&rsquo; data
+items &ndash; where sameness is based upon data item identity &ndash; then they
+share dataset item identity. [The content of the data items may change
+&ndash; for example, a column may be dropped &ndash; but this does not affect the
+dataset identity]{.inline-comment-marker
+ref=&ldquo;468ba323-fa04-4fe1-bde1-d015643f9d2f&rdquo;}. However, a merge or split
+of a dataset, where the collected data items change will not qualify for
+dataset item identity.</p>
+<p>Reconsider the example above. Assume we intend that filter A preserves
+dataset item identity, then we could record the transformation
+characteristics to the filter-dataset flow as shown in the table below.</p>
+<p>::: table-wrap</p>
+<hr>
+<p><strong>bUnit process</strong>   <strong>bUnit input</strong>   <strong>bUnit output</strong>   <strong>identity</strong>
+filter A            dataset 1         dataset 2          dataset item identity</p>
+<hr>
+<p>:::</p>
+<p>Where a filter-dataset flow has this characteristic, when it is executed
+we test the identity. Where there is a difference, this is reported and
+should be investigated &ndash; we discuss this further in the testing section
+below.</p>
+<p>Of course, it is possible that there are multiple item identities that
+that dataset is tracking, but we only consider the case where there is
+one here.</p>
+<p>[]{#Bookmark61}</p>
+<h2 id="Bookmark61">Dataset item immutable stage identity</h2>
+<p>The second type of algorithmic identity is dataset item immutable stage
+identity &ndash; this is based upon immutability of the collected data
+items' content (including their identities). This follows a similar
+pattern to the identity described above.</p>
+<p>In a bUnit filter, such as a pass-through, where an input dataset is
+intended to have a corresponding output dataset type that collects
+exactly the &lsquo;same&rsquo; data items with their content unchanged &ndash; then they
+share dataset item immutable stage identity. In this case, dropping a
+column from the dataset would change the contents, so they wouldn&rsquo;t
+share this identity. This can be regarded as a more stringent kind of
+dataset item identity &ndash; as dataset item immutable stage identity
+implies d[ataset item identity.]{.inline-comment-marker
+ref=&ldquo;40136bc2-6226-481d-b34f-acfb29b868ee&rdquo;}</p>
+<p>Reconsider again the filter A example. Assume we now intend filter A to
+preserve dataset item immutable stage identity, then we could record the
+transformation characteristics to the filter-dataset flow as shown in
+the table below.</p>
+<p>::: table-wrap</p>
+<hr>
+<p><strong>bUnit process</strong>   <strong>bUnit input</strong>   <strong>bUnit output</strong>   <strong>identity</strong>
+filter A            dataset 1         dataset 2          dataset item immutable stage identity</p>
+<hr>
+<p>:::</p>
+<p>Where a filter-dataset flow has this characteristic, when the pipeline
+is executed we test for this identity. Where there is a difference, this
+is reported and should be investigated &ndash; we discuss this further in the
+testing section below. In practice, we will need to differentiate
+between cases where we expect the dataset and associated data items'
+identity to always change and where they may change, but don&rsquo;t
+necessarily. in this exposition we gloss over this distinction.</p>
+<p>Where a dataset is processed and the input and output versions both
+collect the &lsquo;same&rsquo; data items with the same content, then they are the
+same dataset immutable stage. Where the content of a data item changes
+&ndash; for example, a column is dropped &ndash; this marks the end of the dataset
+immutable stage but does not affect the dataset identity.</p>
+<p>The obvious candidate for stage identity based upon content immutability
+is the maximal content of the dataset. For example, in the case of
+tables, this would be all the data columns. There will be cases where
+the content naturally divides into sub-content and so can be usefully
+tracked in finer detail. However we only consider the case where there
+is a single (maximal) notion of content here.</p>
+<p>[]{#Bookmark62}</p>
+<h1 id="Bookmark62">Tracking intended dataset identities</h1>
+<p>In this context, tracking means following the intended flow of the two
+identities through the bUnit pipeline. In other words, for a particular
+dataset identity, which bUnit datasets (pipes) it is intended to pass
+through. This involves mapping where it is intended to be preserved
+across bUnit filters. We describe this in more detail in this section.</p>
+<p>[]{#Bookmark63}</p>
+<h2 id="Bookmark63">Tracking a simple pass-through</h2>
+<p>Consider first a simple pass-through pipeline visualised in the figure
+below.\</p>
+<p>[<img src="/Users/terraire/Downloads/TtDT/media/img_53.png" alt="">{.confluence-embedded-image
+.image-center}]{.confluence-embedded-file-wrapper .image-center-wrapper}</p>
+<p>This gives rise to the filter-dataset transformation characteristics in
+the table below.</p>
+<p>::: table-wrap</p>
+<hr>
+<p><strong>bUnit process</strong>   <strong>bUnit input</strong>   <strong>bUnit output</strong>   <strong>identity level</strong>
+pass-through        dataset 1         dataset 2          dataset item identity
+pass-through        dataset 1         dataset 2          dataset item immutable stage identity</p>
+<hr>
+<p>:::</p>
+<p>From this table we can infer that there is a dataset, of which dataset 1
+and dataset 2 are bUnit filter stages &ndash; dataset A. We can also infer
+that this dataset is its own immutable stage, as it is immutable
+throughout its life. [This means it has two
+names]{.inline-comment-marker
+ref=&ldquo;5540785e-031a-47dc-b3ca-8c95d2760652&rdquo;}. We tend to use the shorter
+names in diagrams and have both in one of the tables for reference (here
+you can find both names in a later table). This structure can be
+visualised as a [tracking life history]{.inline-comment-marker
+ref=&ldquo;850b5d6b-92b5-4ca4-8b60-05fd84f32477&rdquo;} &ndash; as shown in the figure
+below.\</p>
+<p>[<img src="/Users/terraire/Downloads/TtDT/media/img_54.png" alt="">{.confluence-embedded-image
+.image-center}]{.confluence-embedded-file-wrapper .image-center-wrapper}</p>
+<p>The tracking is recorded in the component structure. In this case, where
+the bUnit dataset is a stage in the life of the larger dataset. This
+structure can be recorded in a tracking table, such as the one below.</p>
+<p>::: table-wrap</p>
+<hr>
+<p><strong>composite</strong>   <strong>tracked component</strong>
+dataset A       dataset 1 / dataset A bUnit stage dataset 1
+dataset A       dataset 2 / dataset A bUnit stage dataset 2</p>
+<hr>
+<p>:::</p>
+<p>[The stage succession structure can also be recorded in a
+table]{.inline-comment-marker
+ref=&ldquo;e41f3a97-f634-447e-80d0-f930a83e5825&rdquo;}</p>
+<p>::: table-wrap</p>
+<hr>
+<p><strong>before</strong>                                    <strong>after</strong>                                     <strong>type</strong>
+dataset 1 / dataset A bUnit stage dataset 1   dataset 2 / dataset A bUnit stage dataset 2   bUnit stage</p>
+<hr>
+<p>:::</p>
+<p>[]{#Bookmark64}</p>
+<h1 id="Bookmark64">Tracing intended dataset identities</h1>
+<p>In this context, tracing means identifying the intended flow of
+transformation based upon multiple tracked identities. This involves
+mapping where the bUnit filters intend a transformation. We describe
+this in more detail in this section.</p>
+<p>[]{#Bookmark65}</p>
+<h3 id="Bookmark65">Tracing simple dataset stage successions</h3>
+<p>It can be intended that a dataset remain immutable throughout its life.
+Or, it can be intended that datasets can change (be mutable). In the
+bCLEARer stage pipeline, the changes translate into a series of
+immutable stages. The tracing marks out the sequence of stages.</p>
+<p>Consider the simple single filter pipeline in the figure below.\</p>
+<p>[<img src="/Users/terraire/Downloads/TtDT/media/img_55.png" alt="">{.confluence-embedded-image
+.image-center}]{.confluence-embedded-file-wrapper .image-center-wrapper}</p>
+<p>Assume filter A preserves dataset identity, but transforms the content
+(in some way). This gives rise to the mapping table below.</p>
+<p>::: table-wrap</p>
+<hr>
+<p><strong>bUnit process</strong>   <strong>bUnit input</strong>   <strong>bUnit output</strong>   <strong>identity level</strong>
+filter A            dataset 1         dataset 2          dataset item identity</p>
+<hr>
+<p>:::</p>
+<p>From this one can infer the existence of dataset A and its two immutable
+stages that are identical with their corresponding bUnit datasets. We
+can record this in an existence table like that below.</p>
+<p>::: table-wrap</p>
+<hr>
+<p><strong>Identity dataset</strong>   <strong>component</strong>
+dataset W              dataset 1 / dataset W immutable bUnit stage dataset 1
+dataset W              dataset 2 / dataset W immutable bUnit stage dataset 2</p>
+<hr>
+<p>:::</p>
+<p>For tracing purposes, one also needs to identify the succession
+transformation. This can be inferred algorithmically from the previous
+tables. One can record them in an succession table like that below.</p>
+<p>::: table-wrap</p>
+<hr>
+<p><strong>prior dataset stage</strong>                     <strong>post dataset stage</strong>                      <strong>bUnit process</strong>
+dataset W immutable bUnit stage dataset 1   dataset W immutable bUnit stage dataset 2   filter A</p>
+<hr>
+<p>:::</p>
+<p>This trace can be shown visually in a life history.\</p>
+<p>[<img src="/Users/terraire/Downloads/TtDT/media/img_56.png" alt="">{.confluence-embedded-image
+.image-center}]{.confluence-embedded-file-wrapper
+.image-center-wrapper}[]{#Bookmark66}</p>
+<h2 id="Bookmark66">Tracing simple dataset successions</h2>
+<p>Consider a simple single filter pipeline whose bUnit filter is designed
+to take a dataset as input and output, based upon this, a different
+dataset. Then the dataset identity table is empty, as no identities are
+preserved. But there is an intended transformation, the emergence of a
+new dataset, that needs to be traced.</p>
+<p>Reconsider the pipeline in the figure above. In this example, assume
+dataset 2 is a new dataset, different from dataset 1. In this simple
+case, the bUnit dataset flow links the two (distinct) bUnit datasets.</p>
+<p>For tracing purposes one also needs to identify the dataset emergence
+transformation &ndash; the links from the emerging dataset back to the
+dataset it is immediately dependent upon. This can be inferred
+algorithmically from the filter and recorded in an mapping table like
+that below.</p>
+<p>::: table-wrap</p>
+<hr>
+<p><strong>prior dataset</strong>   <strong>post dataset</strong>   <strong>bUnit process</strong>
+dataset 1           dataset 2          filter A</p>
+<hr>
+<p>:::</p>
+<p>This trace can be shown visually in a life history.\</p>
+<p>[<img src="/Users/terraire/Downloads/TtDT/media/img_57.png" alt="">{.confluence-embedded-image
+.image-center}]{.confluence-embedded-file-wrapper
+.image-center-wrapper}[]{#Bookmark67}</p>
+<h2 id="Bookmark67">Tracking and tracing branches</h2>
+<p>The bCLEARer stage pipeline flow can split-and-merge, which creates the
+possibility for the dataset identities to split and merge as well.
+Consider the pipeline in the figure below.\</p>
+<p>[<img src="/Users/terraire/Downloads/TtDT/media/img_58.png" alt="">{.confluence-embedded-image
+.image-center}]{.confluence-embedded-file-wrapper .image-center-wrapper}</p>
+<p>Assume the filters (whatever they are) just preserve data item identity,
+so not immutable stage identity. This gives rise to the mapping table
+below.</p>
+<p>::: table-wrap</p>
+<hr>
+<p><strong>bUnit process</strong>   <strong>bUnit input</strong>   <strong>bUnit output</strong>   <strong>identity level</strong>
+filter X            dataset 1         dataset 2          dataset item identity
+filter Y            dataset 1         dataset 3          dataset item identity
+filter Z            dataset 2         dataset 4          dataset item identity
+filter Z            dataset 3         dataset 4          dataset item identity</p>
+<hr>
+<p>:::</p>
+<p>The lack of dataset item immutable stage identity implies that there is
+a dataset item immutable stage difference. The dataset item identity
+implies the existence of a dataset persisting through the bUnit dataset
+flow &ndash; dataset A &ndash; of which the bUnit datasets are components &ndash; as
+shown in the table below.</p>
+<p>::: table-wrap</p>
+<hr>
+<p><strong>composite</strong>   <strong>component</strong>
+dataset A       dataset 1 / dataset A immutable bUnit stage dataset 1
+dataset A       dataset 2 / dataset A immutable bUnit stage dataset 2
+dataset A       dataset 3 / dataset A immutable bUnit stage dataset 3
+dataset A       dataset 4 / dataset A immutable bUnit stage dataset 4</p>
+<hr>
+<p>:::</p>
+<p>The earlier mapping table [provide ]{.inline-comment-marker
+ref=&ldquo;889c8a95-14d3-4c32-ac95-1285b090613c&rdquo;}the basis for immutable stage
+tracing relations between the bUnit datasets. The resulting life history
+below visualises the tracking &ndash; using components, and tracing &ndash; using
+arrows.</p>
+<p>[<img src="/Users/terraire/Downloads/TtDT/media/img_59.png" alt="">{.confluence-embedded-image
+.image-center}]{.confluence-embedded-file-wrapper .image-center-wrapper}</p>
+<p>Or it can be recorded in a table, such as the one below.</p>
+<p>::: table-wrap</p>
+<hr>
+<p><strong>composite</strong>   <strong>tracked component</strong>
+dataset A       dataset 1 / dataset A immutable bUnit stage 1
+dataset A       dataset 2 / dataset A immutable bUnit stage 2
+dataset A       dataset 3 / dataset A immutable bUnit stage 3
+dataset A       dataset 4 / dataset A immutable bUnit stage 4</p>
+<hr>
+<p>:::</p>
+<p>There are successions between the bUnit dataset stages. These are
+identified and recorded as part of tracing[, which is the topic of the
+next section.]{.inline-comment-marker
+ref=&ldquo;77769a03-be20-42a2-8c08-ab2220a2656c&rdquo;}</p>
+<p>[]{#Bookmark68}</p>
+<h1 id="Bookmark68">Testing identity</h1>
+<p>Once the intended tracks and traces have been identified (as described
+in the two previous sections), they can be used when the pipeline is
+executed to test whether identity is being preserved as intended. The
+pipeline has been implemented so that every bUnit dataset has immutable
+metadata; a count, hashsums for item identity and immutable stage
+identity, and a hash for bUnit stage identity. Each bUnit filter has a
+corresponding inspection filter that has access to its dataset&rsquo;s
+metadata. This is shown graphically in the figure below.</p>
+<p>[<img src="/Users/terraire/Downloads/TtDT/media/img_60.png" alt="">{.confluence-embedded-image
+.image-center}]{.confluence-embedded-file-wrapper .image-center-wrapper}</p>
+<p>The inspection filter uses the dataset metadata as the basis for
+testing, as described in the next sections.</p>
+<p>[]{#Bookmark69}</p>
+<h2 id="Bookmark69">Testing a simple pass through</h2>
+<p>Assume we have a simple pass-though filter as discussed earlier and
+shown in the figure below. As it is a pass through, dataset and
+immutable stage identity are preserved, as shown in the life history.</p>
+<p>[<img src="/Users/terraire/Downloads/TtDT/media/img_61.png" alt="">{.confluence-embedded-image
+.image-center}]{.confluence-embedded-file-wrapper .image-center-wrapper}</p>
+<p>In the pipeline, the associated inspection process has access to the
+dataset metadata &ndash; as shown in the figure below.</p>
+<p>[<img src="/Users/terraire/Downloads/TtDT/media/img_62.png" alt="">{.confluence-embedded-image
+.image-center}]{.confluence-embedded-file-wrapper .image-center-wrapper}</p>
+<p>It uses the track and trace maps to test the transformations. In this
+case, all non-bUnit items of metadata should match (bUnit stage
+identities should never match).</p>
+<p>[]{#Bookmark70}</p>
+<h2 id="Bookmark70">Testing a simple column drop</h2>
+<p>Now assume we have a simple filter where the dataset has its content
+transformed &ndash; by, for example, dropping a column or two. In this case,
+dataset identity is preserved, but immutable stage identity is not, as
+shown in the life history.</p>
+<p>[<img src="/Users/terraire/Downloads/TtDT/media/img_63.png" alt="">{.confluence-embedded-image
+.image-center}]{.confluence-embedded-file-wrapper .image-center-wrapper}</p>
+<p>In the pipeline, the associated inspection filter has access to the
+dataset metadata &ndash; as shown in the figure below.</p>
+<p>[<img src="/Users/terraire/Downloads/TtDT/media/img_64.png" alt="">{.confluence-embedded-image
+.image-center}]{.confluence-embedded-file-wrapper .image-center-wrapper}</p>
+<p>It uses the track and trace mapping to test the transformations. In this
+case, only the first item of metadata (identity_hashsum) should match.</p>
+<p>[]{#Bookmark71}</p>
+<h2 id="Bookmark71">Testing a simple dataset split</h2>
+<p>Testing splits [(and merges - see below)]{.inline-comment-marker
+ref=&ldquo;60fd11a1-5f4a-46e8-83c2-292ad1e4776f&rdquo;} requires a little more
+calculation than simple matching. Consider the split shown in the figure
+below. In this case, the sum of the two output items should match the
+input items.</p>
+<p>[<img src="/Users/terraire/Downloads/TtDT/media/img_65.png" alt="">{.confluence-embedded-image
+.image-center}]{.confluence-embedded-file-wrapper .image-center-wrapper}</p>
+<p>[]{#Bookmark72}</p>
+<h2 id="Bookmark72">Testing a simple dataset merge</h2>
+<p>[Consider the merge shown in the figure below. In this case, the input
+items should match the sum of the two output
+items.]{.inline-comment-marker
+ref=&ldquo;b388953a-20a7-495f-bde0-e840d0f64d17&rdquo;}</p>
+<p>[<img src="/Users/terraire/Downloads/TtDT/media/img_66.png" alt="">{.confluence-embedded-image
+.image-center}]{.confluence-embedded-file-wrapper
+.image-center-wrapper}[]{#Bookmark73}</p>
+<h2 id="Bookmark73">Expanding the testing</h2>
+<p>We have only covered a small range of the possible tests that can be
+done with bCLEARer stage pipelines. But hopefully this is enough to give
+a good idea of the kinds of test that are feasible.
+:::
+:::
+:::
+:::</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://example.org/" >
+    &copy;  My New Hugo Site 2023 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

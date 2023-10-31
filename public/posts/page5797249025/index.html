@@ -1,0 +1,1105 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>My New Hugo Site</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="::: full-height-container ::: {#sidebar .split} ::: {#search .navgroup} :::
+::: {#navigation .navgroup}
+CLEAN CLIFcode Image TtDT - Report TtDT - Report - Introduction TtDT - Report - A resilient approach TtDT - Report - A resilient, transparent bCLEARer pipeline architecture TtDT - Report - bCLEARer&#39;s pipeline or pipe-and-filter architecture TtDT - Report - bCLEARer&#39;s nested gated pipeline architecture TtDT - Report - bCLEARer pipeline&#39;s three nesting levels TtDT - Report - bCLEARer pipeline - general design TtDT - Report - Building resilient transformation transparency into the bCLEARer pipeline TtDT - Report - Building resilient dataset transformation transparency TtDT - Report - Building resilient data item transformation transparency TtDT - Report - Appendices TtDT - Report - Appendix - Process: principles versus rules TtDT - Report - Appendix - bH - bHashing and bSumming TtDT - Report - Appendix - cohesion and coupling TtDT - Report - Appendix - separation of concerns principle TtDT - Report - Appendix - immutability and idempotence principle TtDT - Report - Appendix - single-transformation (responsibility) principle (STP) TtDT - Report - Appendix - Aggregated S(ingle) S(ource) O(f) T(ruth) TtDT - Report - Appendix - design patterns and anti-patterns TtDT - Report - Appendix - Glossary of Major Terms TtDT - Report - Appendix - Glossary of Major Terms - Report TtDT - Report - Appendix - Glossary of Major Terms - Research TtDT - Report - Appendix - Reference Iconography TtDT - Report - Appendix - Reference Iconography - Report TtDT - Report - Appendix - Reference Iconography - Report - Pipeline architecture TtDT - Report - Appendix - Reference Iconography - Report - Life history TtDT - Report - Appendix - Reference Iconography - Report - Inter-diagram mapping TtDT - Report - Appendix - Reference Iconography - Report - Common TtDT - Report - Appendix - Reference Iconography - Research TtDT - Report - Appendix - Reference Iconography - Report - Pipeline architecture _ archive 30/01/23 TtDT - Report - Appendix - The standard &#39;Pipeline&#39; or &#39;Pipe-and-Filter&#39; Architecture TtDT - Report - References TtDT - Report - Acknowledgements ::: ::: ::: {#content .">
+    <meta name="generator" content="Hugo 0.119.0">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+    
+    
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="" />
+<meta property="og:description" content="::: full-height-container ::: {#sidebar .split} ::: {#search .navgroup} :::
+::: {#navigation .navgroup}
+CLEAN CLIFcode Image TtDT - Report TtDT - Report - Introduction TtDT - Report - A resilient approach TtDT - Report - A resilient, transparent bCLEARer pipeline architecture TtDT - Report - bCLEARer&#39;s pipeline or pipe-and-filter architecture TtDT - Report - bCLEARer&#39;s nested gated pipeline architecture TtDT - Report - bCLEARer pipeline&#39;s three nesting levels TtDT - Report - bCLEARer pipeline - general design TtDT - Report - Building resilient transformation transparency into the bCLEARer pipeline TtDT - Report - Building resilient dataset transformation transparency TtDT - Report - Building resilient data item transformation transparency TtDT - Report - Appendices TtDT - Report - Appendix - Process: principles versus rules TtDT - Report - Appendix - bH - bHashing and bSumming TtDT - Report - Appendix - cohesion and coupling TtDT - Report - Appendix - separation of concerns principle TtDT - Report - Appendix - immutability and idempotence principle TtDT - Report - Appendix - single-transformation (responsibility) principle (STP) TtDT - Report - Appendix - Aggregated S(ingle) S(ource) O(f) T(ruth) TtDT - Report - Appendix - design patterns and anti-patterns TtDT - Report - Appendix - Glossary of Major Terms TtDT - Report - Appendix - Glossary of Major Terms - Report TtDT - Report - Appendix - Glossary of Major Terms - Research TtDT - Report - Appendix - Reference Iconography TtDT - Report - Appendix - Reference Iconography - Report TtDT - Report - Appendix - Reference Iconography - Report - Pipeline architecture TtDT - Report - Appendix - Reference Iconography - Report - Life history TtDT - Report - Appendix - Reference Iconography - Report - Inter-diagram mapping TtDT - Report - Appendix - Reference Iconography - Report - Common TtDT - Report - Appendix - Reference Iconography - Research TtDT - Report - Appendix - Reference Iconography - Report - Pipeline architecture _ archive 30/01/23 TtDT - Report - Appendix - The standard &#39;Pipeline&#39; or &#39;Pipe-and-Filter&#39; Architecture TtDT - Report - References TtDT - Report - Acknowledgements ::: ::: ::: {#content ." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/page5797249025/" /><meta property="article:section" content="posts" />
+
+
+<meta itemprop="name" content="">
+<meta itemprop="description" content="::: full-height-container ::: {#sidebar .split} ::: {#search .navgroup} :::
+::: {#navigation .navgroup}
+CLEAN CLIFcode Image TtDT - Report TtDT - Report - Introduction TtDT - Report - A resilient approach TtDT - Report - A resilient, transparent bCLEARer pipeline architecture TtDT - Report - bCLEARer&#39;s pipeline or pipe-and-filter architecture TtDT - Report - bCLEARer&#39;s nested gated pipeline architecture TtDT - Report - bCLEARer pipeline&#39;s three nesting levels TtDT - Report - bCLEARer pipeline - general design TtDT - Report - Building resilient transformation transparency into the bCLEARer pipeline TtDT - Report - Building resilient dataset transformation transparency TtDT - Report - Building resilient data item transformation transparency TtDT - Report - Appendices TtDT - Report - Appendix - Process: principles versus rules TtDT - Report - Appendix - bH - bHashing and bSumming TtDT - Report - Appendix - cohesion and coupling TtDT - Report - Appendix - separation of concerns principle TtDT - Report - Appendix - immutability and idempotence principle TtDT - Report - Appendix - single-transformation (responsibility) principle (STP) TtDT - Report - Appendix - Aggregated S(ingle) S(ource) O(f) T(ruth) TtDT - Report - Appendix - design patterns and anti-patterns TtDT - Report - Appendix - Glossary of Major Terms TtDT - Report - Appendix - Glossary of Major Terms - Report TtDT - Report - Appendix - Glossary of Major Terms - Research TtDT - Report - Appendix - Reference Iconography TtDT - Report - Appendix - Reference Iconography - Report TtDT - Report - Appendix - Reference Iconography - Report - Pipeline architecture TtDT - Report - Appendix - Reference Iconography - Report - Life history TtDT - Report - Appendix - Reference Iconography - Report - Inter-diagram mapping TtDT - Report - Appendix - Reference Iconography - Report - Common TtDT - Report - Appendix - Reference Iconography - Research TtDT - Report - Appendix - Reference Iconography - Report - Pipeline architecture _ archive 30/01/23 TtDT - Report - Appendix - The standard &#39;Pipeline&#39; or &#39;Pipe-and-Filter&#39; Architecture TtDT - Report - References TtDT - Report - Acknowledgements ::: ::: ::: {#content .">
+
+<meta itemprop="wordCount" content="5094">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content=""/>
+<meta name="twitter:description" content="::: full-height-container ::: {#sidebar .split} ::: {#search .navgroup} :::
+::: {#navigation .navgroup}
+CLEAN CLIFcode Image TtDT - Report TtDT - Report - Introduction TtDT - Report - A resilient approach TtDT - Report - A resilient, transparent bCLEARer pipeline architecture TtDT - Report - bCLEARer&#39;s pipeline or pipe-and-filter architecture TtDT - Report - bCLEARer&#39;s nested gated pipeline architecture TtDT - Report - bCLEARer pipeline&#39;s three nesting levels TtDT - Report - bCLEARer pipeline - general design TtDT - Report - Building resilient transformation transparency into the bCLEARer pipeline TtDT - Report - Building resilient dataset transformation transparency TtDT - Report - Building resilient data item transformation transparency TtDT - Report - Appendices TtDT - Report - Appendix - Process: principles versus rules TtDT - Report - Appendix - bH - bHashing and bSumming TtDT - Report - Appendix - cohesion and coupling TtDT - Report - Appendix - separation of concerns principle TtDT - Report - Appendix - immutability and idempotence principle TtDT - Report - Appendix - single-transformation (responsibility) principle (STP) TtDT - Report - Appendix - Aggregated S(ingle) S(ource) O(f) T(ruth) TtDT - Report - Appendix - design patterns and anti-patterns TtDT - Report - Appendix - Glossary of Major Terms TtDT - Report - Appendix - Glossary of Major Terms - Report TtDT - Report - Appendix - Glossary of Major Terms - Research TtDT - Report - Appendix - Reference Iconography TtDT - Report - Appendix - Reference Iconography - Report TtDT - Report - Appendix - Reference Iconography - Report - Pipeline architecture TtDT - Report - Appendix - Reference Iconography - Report - Life history TtDT - Report - Appendix - Reference Iconography - Report - Inter-diagram mapping TtDT - Report - Appendix - Reference Iconography - Report - Common TtDT - Report - Appendix - Reference Iconography - Research TtDT - Report - Appendix - Reference Iconography - Report - Pipeline architecture _ archive 30/01/23 TtDT - Report - Appendix - The standard &#39;Pipeline&#39; or &#39;Pipe-and-Filter&#39; Architecture TtDT - Report - References TtDT - Report - Acknowledgements ::: ::: ::: {#content ."/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        My New Hugo Site
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        POSTS
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1"></h1>
+      
+      
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>::: full-height-container
+::: {#sidebar .split}
+::: {#search .navgroup}
+:::</p>
+<p>::: {#navigation .navgroup}</p>
+<ul>
+<li><a href="http://example.org/posts/page5501091875/">CLEAN CLIFcode Image</a></li>
+<li><a href="http://example.org/posts/page5766283265/">TtDT - Report</a>
+<ul>
+<li><a href="http://example.org/posts/page5765071213/">TtDT - Report - Introduction</a></li>
+<li><a href="http://example.org/posts/page5769560149/">TtDT - Report - A resilient approach</a></li>
+<li><a href="http://example.org/posts/page5766316210/">TtDT - Report - A resilient, transparent bCLEARer pipeline
+architecture</a>
+<ul>
+<li><a href="http://example.org/posts/page5773230168/">TtDT - Report - bCLEARer's pipeline or pipe-and-filter
+architecture</a></li>
+<li><a href="http://example.org/posts/page5773656071/">TtDT - Report - bCLEARer's nested gated pipeline
+architecture</a></li>
+<li><a href="http://example.org/posts/page5766545422/">TtDT - Report - bCLEARer pipeline's three nesting
+levels</a></li>
+<li><a href="http://example.org/posts/page5775163422/">TtDT - Report - bCLEARer pipeline - general
+design</a></li>
+</ul>
+</li>
+<li><a href="http://example.org/posts/page5769494532/">TtDT - Report - Building resilient transformation transparency
+into the bCLEARer pipeline</a>
+<ul>
+<li><a href="http://example.org/posts/page5765136857/">TtDT - Report - Building resilient dataset transformation
+transparency</a></li>
+<li><a href="http://example.org/posts/page5766316201/">TtDT - Report - Building resilient data item transformation
+transparency</a></li>
+</ul>
+</li>
+<li><a href="http://example.org/posts/page5768675336/">TtDT - Report - Appendices</a>
+<ul>
+<li><a href="http://example.org/posts/page5769003012/">TtDT - Report - Appendix - Process: principles versus
+rules</a></li>
+<li><a href="http://example.org/posts/page5768839184/">TtDT - Report - Appendix - bH - bHashing and
+bSumming</a></li>
+<li><a href="http://example.org/posts/page5772804097/">TtDT - Report - Appendix - cohesion and
+coupling</a></li>
+<li><a href="http://example.org/posts/page5772804106/">TtDT - Report - Appendix - separation of concerns
+principle</a></li>
+<li><a href="http://example.org/posts/page5772869633/">TtDT - Report - Appendix - immutability and idempotence
+principle</a></li>
+<li><a href="http://example.org/posts/page5772804114/">TtDT - Report - Appendix - single-transformation
+(responsibility) principle (STP)</a></li>
+<li><a href="http://example.org/posts/page5773328385/">TtDT - Report - Appendix - Aggregated S(ingle) S(ource)
+O(f) T(ruth)</a></li>
+<li><a href="http://example.org/posts/page5775982593/">TtDT - Report - Appendix - design patterns and
+anti-patterns</a></li>
+<li><a href="http://example.org/posts/page5780340771/">TtDT - Report - Appendix - Glossary of Major
+Terms</a>
+<ul>
+<li><a href="http://example.org/posts/page5793284135/">TtDT - Report - Appendix - Glossary of Major Terms -
+Report</a></li>
+<li><a href="http://example.org/posts/page5793218610/">TtDT - Report - Appendix - Glossary of Major Terms -
+Research</a></li>
+</ul>
+</li>
+<li><a href="http://example.org/posts/page5784010894/">TtDT - Report - Appendix - Reference
+Iconography</a>
+<ul>
+<li><a href="http://example.org/posts/page5783355393/">TtDT - Report - Appendix - Reference Iconography -
+Report</a>
+<ul>
+<li>TtDT - Report - Appendix - Reference Iconography -
+Report - Pipeline architecture</li>
+<li><a href="http://example.org/posts/page5796298761/">TtDT - Report - Appendix - Reference Iconography -
+Report - Life history</a></li>
+<li><a href="http://example.org/posts/page5796299378/">TtDT - Report - Appendix - Reference Iconography -
+Report - Inter-diagram mapping</a></li>
+<li><a href="http://example.org/posts/page5796299991/">TtDT - Report - Appendix - Reference Iconography -
+Report - Common</a></li>
+</ul>
+</li>
+<li><a href="http://example.org/posts/page5785092097/">TtDT - Report - Appendix - Reference Iconography -
+Research</a>
+<ul>
+<li><a href="http://example.org/posts/page5796331521/">TtDT - Report - Appendix - Reference Iconography -
+Report - Pipeline architecture _ archive
+30/01/23</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="http://example.org/posts/page5784338433/">TtDT - Report - Appendix - The standard 'Pipeline' or
+'Pipe-and-Filter' Architecture</a></li>
+</ul>
+</li>
+<li><a href="http://example.org/posts/page5766578192/">TtDT - Report - References</a></li>
+<li><a href="http://example.org/posts/page5766545409/">TtDT - Report - Acknowledgements</a>
+:::
+:::</li>
+</ul>
+</li>
+</ul>
+<p>::: {#content .split}
+::: wiki-page
+::: wiki-title</p>
+<h1 id="Bookmark117" class="page-title-lvl-cover">TtDT - Report - Appendix - Reference Iconography - Report - Pipeline architecture</h1>
+<p>:::</p>
+<p>::: wiki-content
+[CPa: what should the order of sections be? would pipeline not go before
+pipes and filters? Or do you build from the atoms up? If so, why not
+call a section base components with subsections for pipes and filters?
+]{style=&ldquo;color: rgb(0,102,68);&rdquo;}[=&gt; AGu - see info about appendix
+structure in ]{style=&ldquo;color: rgb(76,154,255);&rdquo;}<a href="page5783355393.md#Bookmark116" title="TtDT - Report - Appendix - Reference Iconography - Report">[TtDT - Report -
+Appendix - Reference Iconography - Report - Shell bCLEARer - Confluence
+(atlassian.net)]{style=&ldquo;color: rgb(76,154,255);&rdquo;}</a>{linked-resource-id=&ldquo;5783355393&rdquo;
+linked-resource-version=&ldquo;22&rdquo; linked-resource-type=&ldquo;page&rdquo;}</p>
+<p>[CPa: generally, I think far too many columns - also columns 1 and 3
+seem to repeat (DRY/WET). So what would be a better set of columns?
+Maybe make the columns, sections within a
+column?]{style=&ldquo;color: rgb(0,102,68);&rdquo;}[ =&gt; AGu =&gt; limited number of
+columns]{style=&ldquo;color: rgb(76,154,255);&rdquo;}</p>
+<p>[CPa: Are we using an alphabetic ordering convention - within the
+sections? - maybe say this]{style=&ldquo;color: rgb(0,102,68);&rdquo;}[. =&gt; AGu -
+added info about appendix structure in
+]{style=&ldquo;color: rgb(76,154,255);&rdquo;}<a href="page5783355393.md#Bookmark116" title="TtDT - Report - Appendix - Reference Iconography - Report">[TtDT - Report - Appendix - Reference
+Iconography - Report - Shell bCLEARer - Confluence
+(atlassian.net)]{style=&ldquo;color: rgb(76,154,255);&rdquo;}</a>{linked-resource-id=&ldquo;5783355393&rdquo;
+linked-resource-version=&ldquo;22&rdquo; linked-resource-type=&ldquo;page&rdquo;}</p>
+<p>[CPa: Should we have a Table of Contents? See below - can we exclude the
+rows?]{style=&ldquo;color: rgb(0,102,68);&rdquo;}</p>
+<p>::: {.toc-macro .rbtoc1696493227154}</p>
+<ul>
+<li><a href="#Bookmark118" title="Pipe-related icons">Pipe-related icons</a>
+<ul>
+<li><a href="#Bookmark119" title="Components">Components</a></li>
+<li><a href="#Bookmark133" title="Composites">Composites</a></li>
+</ul>
+</li>
+<li><a href="#Bookmark141" title="Filter-related icons">Filter-related icons</a>
+<ul>
+<li><a href="#Bookmark142" title="Components">Components</a></li>
+<li><a href="#Bookmark146" title="Composites">Composites</a></li>
+</ul>
+</li>
+<li><a href="#Bookmark148" title="Pipeline icons">Pipeline icons</a>
+<ul>
+<li><a href="#Bookmark149" title="Components">Components</a></li>
+</ul>
+</li>
+<li><a href="#Bookmark151" title="Nesting icons">Nesting icons</a>
+<ul>
+<li><a href="#Bookmark152" title="Components">Components</a></li>
+</ul>
+</li>
+<li><a href="#Bookmark159" title="Examples">Examples</a>
+<ul>
+<li><a href="#Bookmark160" title="Perspectives">Perspectives</a></li>
+<li><a href="#Bookmark163" title="Simple pipeline">Simple pipeline</a></li>
+<li><a href="#Bookmark166" title="Nesting">Nesting</a>
+:::</li>
+</ul>
+</li>
+</ul>
+<p>[]{#Bookmark118}</p>
+<h2 id="Bookmark118">Pipe-related icons</h2>
+<p>[]{#Bookmark119}</p>
+<h3 id="Bookmark119">Components</h3>
+<p>::: table-wrap
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| <strong>iconography object | <strong>iconography        | <strong>notes</strong>            |
+| names</strong>              | objects</strong>            |                      |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| []{#Bookmark120}     | [![](/Users/terraire |                      |
+|                      | /Downloads/TtDT/medi |                      |
+| #### data            | a/img_81.png){.confl |                      |
+|  item {#Bookmark120} | uence-embedded-image |                      |
+|                      | .image-ce            |                      |
+|                      | nter}]{.confluence-e |                      |
+|                      | mbedded-file-wrapper |                      |
+|                      | .i                   |                      |
+|                      | mage-center-wrapper} |                      |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| []{#Bookmark121}     | [![](/Users/terraire | This icon represents |
+|                      | /Downloads/TtDT/medi | a dataset. It is     |
+| #### da              | a/img_82.png){.confl | typically enriched   |
+| taset {#Bookmark121} | uence-embedded-image | with the dataset&rsquo;s   |
+|                      | .image-ce            | metadata columns and |
+|                      | nter}]{.confluence-e | used when            |
+|                      | mbedded-file-wrapper | illustrating the     |
+|                      | .i                   | impact of a          |
+|                      | mage-center-wrapper} | transformation on a  |
+|                      |                      | dataset&rsquo;s data items |
+|                      |                      | and their identities |
+|                      |                      | (see [example        |
+|                      |                      | ]{style=&ldquo;color: rg   |
+|                      |                      | b(76,154,255);&rdquo;}&hellip;) |
+|                      |                      | [[[CPa: Ummm, is    |
+|                      |                      | this a pipe, or the  |
+|                      |                      | dataset itself? I&rsquo;m  |
+|                      |                      | not                  |
+|                      |                      | sure.]{.i            |
+|                      |                      | nline-comment-marker |
+|                      |                      | ref=&ldquo;4c14b81d-e53    |
+|                      |                      | 1-49c0-b889-edcd1837 |
+|                      |                      | b792&rdquo;}]]{style=&ldquo;col |
+|                      |                      | or: rgb(0,102,68);&rdquo;} |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+|                      |                      |                      |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| []{#Bookmark122}     | The following        |                      |
+|                      | section presents the |                      |
+| #### <strong>[dataset (p   | standard icon of a   |                      |
+| ipe) &amp; variants]{.in | pipe that carries a  |                      |
+| line-comment-marker  | dataset and its      |                      |
+| ref=&ldquo;ed4f4d5b-f98a-4 | variant              |                      |
+| 0b2-8ec6-59bbce0a45f | representations.\    |                      |
+| c&rdquo;}</strong> {#Bookmark122} | Icons in this list   |                      |
+|                      | can be used on their |                      |
+|                      | own (see example     |                      |
+|                      | given in the [data   |                      |
+|                      | type                 |                      |
+|                      | perspective](http    |                      |
+|                      | s://borocvi.atlassia |                      |
+|                      | n.net/wiki/spaces/bi |                      |
+|                      | e/pages/5783355393/T |                      |
+|                      | tDT+-+Report+-+Appen |                      |
+|                      | dix+-+Reference+Icon |                      |
+|                      | ography+-+Report#dat |                      |
+|                      | a-type-perspective &quot; |                      |
+|                      | <a href="https://borocvi.atla">https://borocvi.atla</a> |                      |
+|                      | ssian.net/wiki/space |                      |
+|                      | s/bie/pages/57833553 |                      |
+|                      | 93/TtDT+-+Report+-+A |                      |
+|                      | ppendix+-+Reference+ |                      |
+|                      | Iconography+-+Report |                      |
+|                      | #data-type-perspecti |                      |
+|                      | ve&quot;){rel=&ldquo;nofollow&rdquo;} |                      |
+|                      | glossary entry) or   |                      |
+|                      | in conjunction with  |                      |
+|                      | a pipe arrow icon    |                      |
+|                      | (see example given   |                      |
+|                      | in the [process type |                      |
+|                      | per                  |                      |
+|                      | spective](https://bo |                      |
+|                      | rocvi.atlassian.net/ |                      |
+|                      | wiki/spaces/bie/page |                      |
+|                      | s/5783355393/TtDT+-+ |                      |
+|                      | Report+-+Appendix+-+ |                      |
+|                      | Reference+Iconograph |                      |
+|                      | y+-+Report#process-t |                      |
+|                      | ype-perspective &ldquo;htt |                      |
+|                      | ps://borocvi.atlassi |                      |
+|                      | an.net/wiki/spaces/b |                      |
+|                      | ie/pages/5783355393/ |                      |
+|                      | TtDT+-+Report+-+Appe |                      |
+|                      | ndix+-+Reference+Ico |                      |
+|                      | nography+-+Report#pr |                      |
+|                      | ocess-type-perspecti |                      |
+|                      | ve&rdquo;){rel=&ldquo;nofollow&rdquo;} |                      |
+|                      | glossary entry).     |                      |
+|                      |                      |                      |
+|                      | They can optionally  |                      |
+|                      | be named - see       |                      |
+|                      | example given for    |                      |
+|                      | the dataset (pipe)   |                      |
+|                      | icon below.          |                      |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| []{#Bookmark123}     | [![](/Users/terraire | The standard icon    |
+|                      | /Downloads/TtDT/medi | (and its variants)   |
+| ##### da             | a/img_83.png){.confl | can optionally be    |
+| taset [(pipe)]{style | uence-embedded-image | named, e.g.:         |
+| =&ldquo;color: rgb(191,38, | .image-center        |                      |
+| 0);&rdquo;} {#Bookmark123} | width=&ldquo;102&rdquo;          | [![](/Users/terraire |
+|                      | height=&quot;             | /Downloads/TtDT/medi |
+|                      | 102&quot;}]{.confluence-e | a/img_84.png){.confl |
+|                      | mbedded-file-wrapper | uence-embedded-image |
+|                      | .                    | .image-ce            |
+|                      | image-center-wrapper | nter}]{.confluence-e |
+|                      | .confluence-e        | mbedded-file-wrapper |
+|                      | mbedded-manual-size} | .i                   |
+|                      |                      | mage-center-wrapper} |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| []{#Bookmark124}     | [![](/Users/terraire | This icon is a       |
+|                      | /Downloads/TtDT/medi | [variation on the    |
+| ##### dataset [(     | a/img_85.png){.confl | ]{.i                 |
+| pipe)]{style=&ldquo;color: | uence-embedded-image | nline-comment-marker |
+|  rgb(191,38,0);&rdquo;} -  | .image-ce            | ref=&ldquo;74f255a         |
+| variant - with data  | nter}]{.confluence-e | 6-bb75-4ffa-a6e0-b72 |
+| items {#Bookmark124} | mbedded-file-wrapper | 238c37c43&rdquo;}<em>[dataset |
+|                      | .i                   | (pipe)]{.i           |
+|                      | mage-center-wrapper} | nline-comment-marker |
+|                      |                      | ref=&quot;                |
+|                      |                      | 74f255a6-bb75-4ffa-a |
+|                      |                      | 6e0-b72238c37c43&quot;}</em>[ |
+|                      |                      | icon]{.i             |
+|                      |                      | nline-comment-marker |
+|                      |                      | ref=                 |
+|                      |                      | &ldquo;74f255a6-bb75-4ffa- |
+|                      |                      | a6e0-b72238c37c43&rdquo;}. |
+|                      |                      | It uses the dataset  |
+|                      |                      | icon, adorned with   |
+|                      |                      | numbered data items. |
+|                      |                      | A data item followed |
+|                      |                      | by an asterisk is an |
+|                      |                      | item whose immutable |
+|                      |                      | content changed      |
+|                      |                      | through a            |
+|                      |                      | transformation.      |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| []{#Bookmark125}     | [![](/Users/terraire | This icon is a       |
+|                      | /Downloads/TtDT/medi | variation on the     |
+| ##### dataset [      | a/img_86.png){.confl | <em>dataset             |
+| (pipe)]{style=&ldquo;color | uence-embedded-image | [                    |
+| : rgb(191,38,0);&rdquo;} - | .image-ce            | (pipe)]{style=&ldquo;color |
+|  variant - with impl | nter}]{.confluence-e | : rgb(191,38,0);&rdquo;} - |
+| icit split and data  | mbedded-file-wrapper | variant - with data  |
+| items {#Bookmark125} | .i                   | items</em> icon. It      |
+|                      | mage-center-wrapper} | presents a dotted    |
+|                      |                      | line delineation     |
+|                      |                      | anticipating a split |
+|                      |                      | of the dataset or    |
+|                      |                      | illustrating the     |
+|                      |                      | result of a merge.   |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+|                      |                      |                      |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| []{#Bookmark126}     | [![](/Users/terraire | This icon represents |
+|                      | /Downloads/TtDT/medi | a pipe that carries  |
+| #### dataset colle   | a/img_87.png){.confl | a collection of      |
+| ction [(pipe)]{style | uence-embedded-image | datasets. It can be  |
+| =&ldquo;color: rgb(191,38, | .image-center        | used on its own (see |
+| 0);&rdquo;} {#Bookmark126} | width=&ldquo;102&rdquo;          | example given in the |
+|                      | height=&quot;             | [data type           |
+|                      | 161&quot;}]{.confluence-e | perspective](http    |
+|                      | mbedded-file-wrapper | s://borocvi.atlassia |
+|                      | .                    | n.net/wiki/spaces/bi |
+|                      | image-center-wrapper | e/pages/5783355393/T |
+|                      | .confluence-e        | tDT+-+Report+-+Appen |
+|                      | mbedded-manual-size} | dix+-+Reference+Icon |
+|                      |                      | ography+-+Report#dat |
+|                      |                      | a-type-perspective &quot; |
+|                      |                      | <a href="https://borocvi.atla">https://borocvi.atla</a> |
+|                      |                      | ssian.net/wiki/space |
+|                      |                      | s/bie/pages/57833553 |
+|                      |                      | 93/TtDT+-+Report+-+A |
+|                      |                      | ppendix+-+Reference+ |
+|                      |                      | Iconography+-+Report |
+|                      |                      | #data-type-perspecti |
+|                      |                      | ve&quot;){rel=&ldquo;nofollow&rdquo;} |
+|                      |                      | glossary entry) or   |
+|                      |                      | in conjunction with  |
+|                      |                      | a pipe arrow icon    |
+|                      |                      | (see example given   |
+|                      |                      | in the [process type |
+|                      |                      | per                  |
+|                      |                      | spective](https://bo |
+|                      |                      | rocvi.atlassian.net/ |
+|                      |                      | wiki/spaces/bie/page |
+|                      |                      | s/5783355393/TtDT+-+ |
+|                      |                      | Report+-+Appendix+-+ |
+|                      |                      | Reference+Iconograph |
+|                      |                      | y+-+Report#process-t |
+|                      |                      | ype-perspective &ldquo;htt |
+|                      |                      | ps://borocvi.atlassi |
+|                      |                      | an.net/wiki/spaces/b |
+|                      |                      | ie/pages/5783355393/ |
+|                      |                      | TtDT+-+Report+-+Appe |
+|                      |                      | ndix+-+Reference+Ico |
+|                      |                      | nography+-+Report#pr |
+|                      |                      | ocess-type-perspecti |
+|                      |                      | ve&rdquo;){rel=&ldquo;nofollow&rdquo;} |
+|                      |                      | glossary entry).     |
+|                      |                      |                      |
+|                      |                      | It can optionally be |
+|                      |                      | named, e.g.:\        |
+|                      |                      |                      |
+|                      |                      | [![](/Users/terraire |
+|                      |                      | /Downloads/TtDT/medi |
+|                      |                      | a/img_88.png){.confl |
+|                      |                      | uence-embedded-image |
+|                      |                      | .image-ce            |
+|                      |                      | nter}]{.confluence-e |
+|                      |                      | mbedded-file-wrapper |
+|                      |                      | .i                   |
+|                      |                      | mage-center-wrapper} |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| []{#Bookmark127}     | [![](/Users/terraire |                      |
+|                      | /Downloads/TtDT/medi |                      |
+| #### [gate]{.        | a/img_89.png){.confl |                      |
+| inline-comment-marke | uence-embedded-image |                      |
+| r ref=&ldquo;8283171a-d58d | .image-center        |                      |
+| -40b4-92eb-19a70c9b8 | width=&ldquo;102&rdquo;          |                      |
+| 433&rdquo;} {#Bookmark127} | height=              |                      |
+|                      | &ldquo;39&rdquo;}]{.confluence-e |                      |
+|                      | mbedded-file-wrapper |                      |
+|                      | .                    |                      |
+|                      | image-center-wrapper |                      |
+|                      | .confluence-e        |                      |
+|                      | mbedded-manual-size} |                      |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| []{#Bookmark128}     | [![](/Users/terraire | This icon typically  |
+|                      | /Downloads/TtDT/medi | enriches the data    |
+| #### [metadata (col  | a/img_90.png){.confl | item icon.           |
+| umns) - data item]{. | uence-embedded-image |                      |
+| inline-comment-marke | .image-ce            |                      |
+| r ref=&ldquo;1a7fbcce-699e | nter}]{.confluence-e |                      |
+| -425c-87e3-699a25c24 | mbedded-file-wrapper |                      |
+| 732&rdquo;} {#Bookmark128} | .i                   |                      |
+|                      | mage-center-wrapper} |                      |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| []{#Bookmark129}     | [![](/Users/terraire | This icon typically  |
+|                      | /Downloads/TtDT/medi | enriches the dataset |
+| #### met             | a/img_91.png){.confl | icon.                |
+| adata (columns) - da | uence-embedded-image |                      |
+| taset {#Bookmark129} | .image-ce            |                      |
+|                      | nter}]{.confluence-e |                      |
+|                      | mbedded-file-wrapper |                      |
+|                      | .i                   |                      |
+|                      | mage-center-wrapper} |                      |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| []{#Bookmark130}     | [![](/Users/terraire | This icon typically  |
+|                      | /Downloads/TtDT/medi | enriches the data    |
+| #### [metadata (l    | a/img_92.png){.confl | item icon.           |
+| abel) - data item]{. | uence-embedded-image |                      |
+| inline-comment-marke | .image-center        |                      |
+| r ref=&ldquo;1c22f023-357c | width=&ldquo;204&rdquo;          |                      |
+| -4f85-9b38-a4bbc4612 | height=              |                      |
+| 880&rdquo;} {#Bookmark130} | &ldquo;59&rdquo;}]{.confluence-e |                      |
+|                      | mbedded-file-wrapper |                      |
+|                      | .                    |                      |
+|                      | image-center-wrapper |                      |
+|                      | .confluence-e        |                      |
+|                      | mbedded-manual-size} |                      |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| []{#Bookmark131}     | [![](/Users/terraire | This icon typically  |
+|                      | /Downloads/TtDT/medi | enriches the dataset |
+| #### m               | a/img_93.png){.confl | (pipe) icon and its  |
+| etadata (label) - da | uence-embedded-image | variants.            |
+| taset {#Bookmark131} | .image-ce            |                      |
+|                      | nter}]{.confluence-e |                      |
+|                      | mbedded-file-wrapper |                      |
+|                      | .i                   |                      |
+|                      | mage-center-wrapper} |                      |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| []{#Bookmark132}     | [![](/Users/terraire |                      |
+|                      | /Downloads/TtDT/medi |                      |
+| #### [pipe arrow]{.  | a/img_94.png){.confl |                      |
+| inline-comment-marke | uence-embedded-image |                      |
+| r ref=&ldquo;98606bc9-ee51 | .image-ce            |                      |
+| -4c2e-8374-49e8cc7d3 | nter}]{.confluence-e |                      |
+| 659&rdquo;} {#Bookmark132} | mbedded-file-wrapper |                      |
+|                      | .i                   |                      |
+|                      | mage-center-wrapper} |                      |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+:::</p>
+<p>[]{#Bookmark133}</p>
+<h3 id="Bookmark133">Composites</h3>
+<p>::: table-wrap
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| <strong>iconography object | <strong>iconography        | <strong>notes</strong>            |
+| names</strong>              | objects</strong>            |                      |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| []{#Bookmark134}     | [![](/Users/terraire | This composite icon  |
+|                      | /Downloads/TtDT/medi | represents a data    |
+| ##                   | a/img_95.png){.confl | item and its         |
+| ## data item + metad | uence-embedded-image | metadata.            |
+| ata (columns) - data | .image-ce            |                      |
+|  item {#Bookmark134} | nter}]{.confluence-e |                      |
+|                      | mbedded-file-wrapper |                      |
+|                      | .i                   |                      |
+|                      | mage-center-wrapper} |                      |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| []{#Bookmark135}     | [![](/Users/terraire | This composite icon  |
+|                      | /Downloads/TtDT/medi | represents a data    |
+| #### data item + met | a/img_96.png){.confl | item and its         |
+| adata (label) - data | uence-embedded-image | metadata.            |
+|  item {#Bookmark135} | .image-ce            |                      |
+|                      | nter}]{.confluence-e |                      |
+|                      | mbedded-file-wrapper |                      |
+|                      | .i                   |                      |
+|                      | mage-center-wrapper} |                      |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| []{#Bookmark136}     | [![](/Users/terraire | This composite icon  |
+|                      | /Downloads/TtDT/medi | represents a dataset |
+| #### dataset (p      | a/img_97.png){.confl | and its metadata.\   |
+| ipe) &amp; variants + me | uence-embedded-image | The composite icon   |
+| tadata (label) - dat | .image-ce            | in the example on    |
+| a set {#Bookmark136} | nter}]{.confluence-e | the left is based on |
+|                      | mbedded-file-wrapper | the <em>dataset         |
+|                      | .i                   | [                    |
+|                      | mage-center-wrapper} | (pipe)]{style=&ldquo;color |
+|                      |                      | : rgb(191,38,0);&rdquo;} - |
+|                      |                      | variant - with data  |
+|                      |                      | items</em> icon. The     |
+|                      |                      | standard and other   |
+|                      |                      | variant versions of  |
+|                      |                      | the <em>dataset         |
+|                      |                      | ([pipe]{style=&ldquo;color |
+|                      |                      | : rgb(191,38,0);&rdquo;})</em> |
+|                      |                      | icon can also be     |
+|                      |                      | similarly combined   |
+|                      |                      | with the <em>metadata   |
+|                      |                      | (label) - data set</em>  |
+|                      |                      | icon.                |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| []{#Bookmark137}     | [![](/Users/terraire | This composite icon  |
+|                      | /Downloads/TtDT/medi | represents a pipe    |
+| #### dataset (pipe   | a/img_98.png){.confl | that carries a       |
+| ) &amp; variants + pipe  | uence-embedded-image | dataset.             |
+| arrow {#Bookmark137} | .image-ce            |                      |
+|                      | nter}]{.confluence-e | The variant icons of |
+|                      | mbedded-file-wrapper | the <em>dataset         |
+|                      | .i                   | ([pipe]{style=&ldquo;color |
+|                      | mage-center-wrapper} | : rgb(191,38,0);&rdquo;})</em> |
+|                      |                      | icon can similarly   |
+|                      |                      | be combined with the |
+|                      |                      | pipe arrow.[         |
+|                      |                      | (although we don&rsquo;t   |
+|                      |                      | have any case in the |
+|                      |                      | r                    |
+|                      |                      | eport)]{style=&ldquo;color |
+|                      |                      | : rgb(76,154,255);&rdquo;} |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| []{#Bookmark138}     | [![](/Users/terraire | This icon represents |
+|                      | /Downloads/TtDT/medi | a dataset and its    |
+| #### [d              | a/img_99.png){.confl | metadata.            |
+| ataset + metadata (c | uence-embedded-image |                      |
+| olumns) - dataset]{. | .image-ce            |                      |
+| inline-comment-marke | nter}]{.confluence-e |                      |
+| r ref=&ldquo;233f9f5c-0c46 | mbedded-file-wrapper |                      |
+| -4c13-b62c-3974ddc7e | .i                   |                      |
+| 4e2&rdquo;} {#Bookmark138} | mage-center-wrapper} |                      |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| []{#Bookmark139}     | [                    | This icon represents |
+|                      | ![](/Users/terraire/ | a gated dataset      |
+| ####                 | Downloads/TtDT/media | collection.          |
+| dataset collection [ | /img_100.png){.confl |                      |
+| (pipe)]{style=&ldquo;color | uence-embedded-image |                      |
+| : rgb(191,38,0);&rdquo;} + | .image-ce            |                      |
+|  gate {#Bookmark139} | nter}]{.confluence-e |                      |
+|                      | mbedded-file-wrapper |                      |
+|                      | .i                   |                      |
+|                      | mage-center-wrapper} |                      |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| []{#Bookmark140}     | [                    | This composite icon  |
+|                      | ![](/Users/terraire/ | represents a pipe    |
+| #### datase          | Downloads/TtDT/media | that carries a       |
+| t collection [(pipe) | /img_101.png){.confl | dataset collection.  |
+| ]{style=&ldquo;color: rgb( | uence-embedded-image |                      |
+| 191,38,0);&rdquo;} + pipe  | .image-ce            |                      |
+| arrow {#Bookmark140} | nter}]{.confluence-e |                      |
+|                      | mbedded-file-wrapper |                      |
+|                      | .i                   |                      |
+|                      | mage-center-wrapper} |                      |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+|                      |                      |                      |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+|                      |                      |                      |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+|                      |                      |                      |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+:::</p>
+<p>[]{#Bookmark141}</p>
+<h2 id="Bookmark141">Filter-related icons</h2>
+<p>[]{#Bookmark142}</p>
+<h3 id="Bookmark142">Components</h3>
+<p>::: table-wrap
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| <strong>iconography object | <strong>iconography        | <strong>notes</strong>            |
+| names</strong>              | objects</strong>            |                      |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| []{#Bookmark143}     | [                    | This icon represents |
+|                      | ![](/Users/terraire/ | a filter; it is used |
+| #### filte           | Downloads/TtDT/media | in a [data-type      |
+| r (data-type perspec | /img_102.png){.confl | perspective](https   |
+| tive) {#Bookmark143} | uence-embedded-image | ://borocvi.atlassian |
+|                      | .image-ce            | .net/wiki/spaces/bie |
+|                      | nter}]{.confluence-e | /pages/5783355393/Tt |
+|                      | mbedded-file-wrapper | DT+-+Report+-+Append |
+|                      | .i                   | ix+-+Reference+Icono |
+|                      | mage-center-wrapper} | graphy+-+Report#data |
+|                      |                      | -type-perspective &ldquo;h |
+|                      |                      | ttps://borocvi.atlas |
+|                      |                      | sian.net/wiki/spaces |
+|                      |                      | /bie/pages/578335539 |
+|                      |                      | 3/TtDT+-+Report+-+Ap |
+|                      |                      | pendix+-+Reference+I |
+|                      |                      | conography+-+Report# |
+|                      |                      | data-type-perspectiv |
+|                      |                      | e&rdquo;){rel=&ldquo;nofollow&rdquo;}. |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| []{#Bookmark144}     | [                    | This icon represents |
+|                      | ![](/Users/terraire/ | a filter; it is used |
+| #### filter (        | Downloads/TtDT/media | in a [process type   |
+| process-type perspec | /img_103.png){.confl | pers                 |
+| tive) {#Bookmark144} | uence-embedded-image | pective](https://bor |
+|                      | .image-ce            | ocvi.atlassian.net/w |
+|                      | nter}]{.confluence-e | iki/spaces/bie/pages |
+|                      | mbedded-file-wrapper | /5783355393/TtDT+-+R |
+|                      | .i                   | eport+-+Appendix+-+R |
+|                      | mage-center-wrapper} | eference+Iconography |
+|                      |                      | +-+Report#process-ty |
+|                      |                      | pe-perspective &ldquo;http |
+|                      |                      | s://borocvi.atlassia |
+|                      |                      | n.net/wiki/spaces/bi |
+|                      |                      | e/pages/5783355393/T |
+|                      |                      | tDT+-+Report+-+Appen |
+|                      |                      | dix+-+Reference+Icon |
+|                      |                      | ography+-+Report#pro |
+|                      |                      | cess-type-perspectiv |
+|                      |                      | e&rdquo;){rel=&ldquo;nofollow&rdquo;}. |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| []{#Bookmark145}     | [                    | This icon is         |
+|                      | ![](/Users/terraire/ | typically used as an |
+| #### m               | Downloads/TtDT/media | adornment of a       |
+| anual {#Bookmark145} | /img_104.png){.confl | filter; it           |
+|                      | uence-embedded-image | symbolises that the  |
+|                      | .image-ce            | filter involves      |
+|                      | nter}]{.confluence-e | manual work.         |
+|                      | mbedded-file-wrapper |                      |
+|                      | .i                   |                      |
+|                      | mage-center-wrapper} |                      |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+:::</p>
+<p>[]{#Bookmark146}</p>
+<h3 id="Bookmark146">Composites</h3>
+<p>::: table-wrap
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| <strong>iconography object | <strong>iconography        | <strong>notes</strong>            |
+| names</strong>              | objects</strong>            |                      |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| []{#Bookmark147}     | [                    | This composite icon  |
+|                      | ![](/Users/terraire/ | represents the       |
+| ##                   | Downloads/TtDT/media | &ldquo;LOAD&rdquo; bCLEARer      |
+| ## filter (process-t | /img_105.png){.confl | stage which          |
+| ype perspective) &amp; m | uence-embedded-image | typically involves   |
+| anual {#Bookmark147} | .image-ce            | manual work.         |
+|                      | nter}]{.confluence-e |                      |
+|                      | mbedded-file-wrapper |                      |
+|                      | .i                   |                      |
+|                      | mage-center-wrapper} |                      |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+:::</p>
+<p>[note AGu - nesting colouring which applies to filters has been moved to
+nesting section]{style=&ldquo;color: rgb(76,154,255);&rdquo;}</p>
+<p>[]{#Bookmark148}</p>
+<h2 id="Bookmark148">Pipeline icons</h2>
+<p>[]{#Bookmark149}</p>
+<h3 id="Bookmark149">Components</h3>
+<p>::: table-wrap
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| <strong>iconography object | <strong>iconography        | <strong>notes</strong>            |
+| names</strong>              | objects</strong>            |                      |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| []{#Bookmark150}     | [                    | [This icon           |
+|                      | ![](/Users/terraire/ | represents the left  |
+| #### process         | Downloads/TtDT/media | to right direction   |
+|  time {#Bookmark150} | /img_106.png){.confl | of the pipeline      |
+|                      | uence-embedded-image | flow - pipes passing |
+|                      | .image-ce            | data and filters     |
+|                      | nter}]{.confluence-e | transforming it. See |
+|                      | mbedded-file-wrapper | example of use       |
+|                      | .i                   | here.]{style=&ldquo;color  |
+|                      | mage-center-wrapper} | : rgb(76,154,255);&rdquo;} |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+:::</p>
+<p>[]{#Bookmark151}</p>
+<h2 id="Bookmark151">Nesting icons</h2>
+<p>[]{#Bookmark152}</p>
+<h3 id="Bookmark152">Components</h3>
+<p>::: table-wrap
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| <strong>iconography object | <strong>iconography        | <strong>notes</strong>            |
+| names</strong>              | objects</strong>            |                      |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| []{#Bookmark153}     | [                    | [See example of use  |
+|                      | ![](/Users/terraire/ | here.]{style=&ldquo;color  |
+| #### cont            | Downloads/TtDT/media | : rgb(76,154,255);&rdquo;} |
+| ainer {#Bookmark153} | /img_107.png){.confl |                      |
+|                      | uence-embedded-image |                      |
+|                      | .image-ce            |                      |
+|                      | nter}]{.confluence-e |                      |
+|                      | mbedded-file-wrapper |                      |
+|                      | .i                   |                      |
+|                      | mage-center-wrapper} |                      |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| []{#Bookmark154}     | [                    | [ XXXX. See example  |
+|                      | ![](/Users/terraire/ | of use               |
+| #### encapsul        | Downloads/TtDT/media | here.]{style=&ldquo;color  |
+| ation {#Bookmark154} | /img_108.png){.confl | : rgb(76,154,255);&rdquo;} |
+|                      | uence-embedded-image |                      |
+|                      | .image-ce            |                      |
+|                      | nter}]{.confluence-e |                      |
+|                      | mbedded-file-wrapper |                      |
+|                      | .i                   |                      |
+|                      | mage-center-wrapper} |                      |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| []{#Bookmark155}     | [                    | This icon is used to |
+|                      | ![](/Users/terraire/ | present a stage in   |
+| #### evolution       | Downloads/TtDT/media | the evolution of the |
+| stage {#Bookmark155} | /img_109.png){.confl | pipeline flow.       |
+|                      | uence-embedded-image | Typically, evolution |
+|                      | .image-ce            | stage icons are      |
+|                      | nter}]{.confluence-e | arranged in a        |
+|                      | mbedded-file-wrapper | vertical series to   |
+|                      | .i                   | represent snapshots  |
+|                      | mage-center-wrapper} | of the pipeline and  |
+|                      |                      | used conjointly with |
+|                      |                      | the <em>evolutionary    |
+|                      |                      | time</em> icon.          |
+|                      |                      |                      |
+|                      |                      | See                  |
+|                      |                      | [ex                  |
+|                      |                      | ample.]{style=&ldquo;color |
+|                      |                      | : rgb(76,154,255);&rdquo;} |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| []{#Bookmark156}     | [                    | This icon shows the  |
+|                      | ![](/Users/terraire/ | direction of         |
+| #### evolutionary    | Downloads/TtDT/media | evolution of a       |
+|  time {#Bookmark156} | /img_110.png){.confl | pipeline (as pipes   |
+|                      | uence-embedded-image | and filters may be   |
+|                      | .image-ce            | added, removed - or  |
+|                      | nter}]{.confluence-e | changed, for         |
+|                      | mbedded-file-wrapper | instance). It is     |
+|                      | .i                   | typically used       |
+|                      | mage-center-wrapper} | conjointly with a    |
+|                      |                      | series of <em>evolution |
+|                      |                      | stage</em> icon.         |
+|                      |                      |                      |
+|                      |                      | It may be named      |
+|                      |                      | differently          |
+|                      |                      | according to the     |
+|                      |                      | context: for         |
+|                      |                      | instance, as &ldquo;design |
+|                      |                      | evolution&rdquo;,          |
+|                      |                      | &ldquo;pipeline evolution&rdquo; |
+|                      |                      | &hellip;                  |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| []{#Bookmark157}     | [                    | This palette applies |
+|                      | ![](/Users/terraire/ | to the <em>filter       |
+| #### nesting colo    | Downloads/TtDT/media | (process-type        |
+| uring {#Bookmark157} | /img_111.png){.confl | perspective)</em> icon   |
+|                      | uence-embedded-image | and the <em>container</em>  |
+|                      | .image-ce            | icon to signify the  |
+|                      | nter}]{.confluence-e | bCLEARer nesting     |
+|                      | mbedded-file-wrapper | level the respective |
+|                      | .i                   | filter / container   |
+|                      | mage-center-wrapper} | belong to. [See      |
+|                      |                      | example of use       |
+|                      |                      | here.]{style=&ldquo;color  |
+|                      |                      | : rgb(76,154,255);&rdquo;} |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| []{#Bookmark158}     | [                    | [XXXX. See example   |
+|                      | ![](/Users/terraire/ | of use               |
+| #### sub-pip         | Downloads/TtDT/media | here.]{style=&ldquo;color  |
+| eline {#Bookmark158} | /img_112.png){.confl | : rgb(76,154,255);&rdquo;} |
+|                      | uence-embedded-image |                      |
+|                      | .image-ce            |                      |
+|                      | nter}]{.confluence-e |                      |
+|                      | mbedded-file-wrapper |                      |
+|                      | .i                   |                      |
+|                      | mage-center-wrapper} |                      |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+:::</p>
+<p>[]{#Bookmark159}</p>
+<h2 id="Bookmark159">[Examples]{.inline-comment-marker ref=&ldquo;66781bf5-5f83-44a2-91d6-222d5aaae2a0&rdquo;}</h2>
+<p>[]{#Bookmark160}</p>
+<h3 id="Bookmark160">Perspectives</h3>
+<p>::: table-wrap
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| <strong>example names</strong>                | <strong>notes and examples</strong>           |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| []{#Bookmark161}                 | notes: in a process type         |
+|                                  | perspective, pipes are           |
+| #### process                     | represented with the pipe icon   |
+|  type perspective {#Bookmark161} | (adorned or unadorned with a     |
+|                                  | data icon) and filters are       |
+|                                  | represented with the filter      |
+|                                  | (process-type perspective) icon. |
+|                                  |                                  |
+|                                  | example 1:                       |
+|                                  |                                  |
+|                                  | [![](/Users/terra                |
+|                                  | ire/Downloads/TtDT/media/img_113 |
+|                                  | .png){.confluence-embedded-image |
+|                                  | .image-center width=&ldquo;340&rdquo;        |
+|                                  | height=&ldquo;53&rdquo;}]{.                  |
+|                                  | confluence-embedded-file-wrapper |
+|                                  | .image-center-wrapper            |
+|                                  | .                                |
+|                                  | confluence-embedded-manual-size} |
+|                                  |                                  |
+|                                  | example 2:                       |
+|                                  |                                  |
+|                                  | [![](/Users/terra                |
+|                                  | ire/Downloads/TtDT/media/img_114 |
+|                                  | .png){.confluence-embedded-image |
+|                                  | .image-center width=&ldquo;340&rdquo;        |
+|                                  | height=&ldquo;69&rdquo;}]{.                  |
+|                                  | confluence-embedded-file-wrapper |
+|                                  | .image-center-wrapper            |
+|                                  | .                                |
+|                                  | confluence-embedded-manual-size} |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| []{#Bookmark162}                 | notes: in a dataset type         |
+|                                  | perspective, pipes are           |
+| #### data                        | represented with the data icons  |
+|  type perspective {#Bookmark162} | (dataset collection icon or a    |
+|                                  | dataset icon). Filters are       |
+|                                  | represented with the filter      |
+|                                  | (data-type perspective) icon.    |
+|                                  |                                  |
+|                                  | example:                         |
+|                                  |                                  |
+|                                  | [![](/Users/terra                |
+|                                  | ire/Downloads/TtDT/media/img_115 |
+|                                  | .png){.confluence-embedded-image |
+|                                  | .image-center width=&ldquo;340&rdquo;        |
+|                                  | height=&ldquo;68&rdquo;}]{.                  |
+|                                  | confluence-embedded-file-wrapper |
+|                                  | .image-center-wrapper            |
+|                                  | .                                |
+|                                  | confluence-embedded-manual-size} |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+:::</p>
+<p>[]{#Bookmark163}</p>
+<h3 id="Bookmark163">[Simple pipeline]{.inline-comment-marker ref=&ldquo;952e75e6-ca3d-4b27-aad1-687e97141d03&rdquo;}</h3>
+<p>A simple pipeline diagram is obtained by combining pipe-related and
+filter-related icons, according to one of the above-listed
+<a href="https://borocvi.atlassian.net/wiki/spaces/bie/pages/5783355393/TtDT+-+Report+-+Appendix+-+Reference+Iconography+-+Report#Perspectives" title="https://borocvi.atlassian.net/wiki/spaces/bie/pages/5783355393/TtDT+-+Report+-+Appendix+-+Reference+Iconography+-+Report#Perspectives">perspectives</a>{rel=&ldquo;nofollow&rdquo;}.<br>
+It may include a <em>process time</em> icon.</p>
+<p>::: table-wrap
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| <strong>example names</strong>                | <strong>notes and examples</strong>           |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| []{#Bookmark164}                 | [![](/Users/terra                |
+|                                  | ire/Downloads/TtDT/media/img_116 |
+| #### s                           | .png){.confluence-embedded-image |
+| imple pipeline diagram (process  | .image-center}]{.                |
+| type perspective) {#Bookmark164} | confluence-embedded-file-wrapper |
+|                                  | .image-center-wrapper}           |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| []{#Bookmark165}                 | [![](/Users/terra                |
+|                                  | ire/Downloads/TtDT/media/img_117 |
+| ###                              | .png){.confluence-embedded-image |
+| # simple pipeline diagram (data  | .image-center}]{.                |
+| type perspective) {#Bookmark165} | confluence-embedded-file-wrapper |
+|                                  | .image-center-wrapper}           |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+:::</p>
+<p>[]{#Bookmark166}</p>
+<h3 id="Bookmark166">Nesting</h3>
+<p>::: table-wrap
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| <strong>example names</strong>                | <strong>notes and examples</strong>           |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| []{#Bookmark167}                 | [notes: A nested pipeline        |
+|                                  | diagram shows the evolution of a |
+| #### nested                      | sub-pipeline into a nested       |
+|  pipeline diagram {#Bookmark167} | pipeline; it represents the      |
+|                                  | &quot;external layer&quot; of the        |
+|                                  | pipeline at each                 |
+|                                  | stage.]{                         |
+|                                  | style=&ldquo;color: rgb(255,86,48);&rdquo;}\ |
+|                                  | [The pipeline chunk that         |
+|                                  | encapsulates filter and pipe     |
+|                                  | components at a stage in the     |
+|                                  | evolution aligns with the        |
+|                                  | encapsulated components from the |
+|                                  | previous                         |
+|                                  | stage.]{                         |
+|                                  | style=&ldquo;color: rgb(255,86,48);&rdquo;}\ |
+|                                  | The diagram typically involves   |
+|                                  | the                              |
+|                                  | <em>[evolution]{st                  |
+|                                  | yle=&ldquo;color: rgb(255,86,48);&rdquo;}</em>[, |
+|                                  | ]{style=&ldquo;color: rg               |
+|                                  | b(255,86,48);&rdquo;}<em>[sub-pipeline]{s |
+|                                  | tyle=&ldquo;color: rgb(255,86,48);&rdquo;}</em>[ |
+|                                  | and                              |
+|                                  | ]{style=&ldquo;color:                  |
+|                                  | rgb(255,86,48);&rdquo;}<em>[encapsulation |
+|                                  | ]{style=&ldquo;c                       |
+|                                  | olor: rgb(255,86,48);&rdquo;}</em>[icons.] |
+|                                  | {style=&ldquo;color: rgb(255,86,48);&rdquo;} |
+|                                  |                                  |
+|                                  | example:\                        |
+|                                  |                                  |
+|                                  | [![](/Users/terra                |
+|                                  | ire/Downloads/TtDT/media/img_118 |
+|                                  | .png){.confluence-embedded-image |
+|                                  | .image-center}]{.                |
+|                                  | confluence-embedded-file-wrapper |
+|                                  | .image-center-wrapper}           |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| []{#Bookmark168}                 | [notes: a nesting diagram is a   |
+|                                  | &quot;see-through&quot; representation   |
+| ###                              | of the different levels of       |
+| # nesting diagram {#Bookmark168} | nesting within a nested          |
+|                                  | pipeline]{                       |
+|                                  | style=&ldquo;color: rgb(255,86,48);&rdquo;}\ |
+|                                  | The diagram includes [container  |
+|                                  | icons.]                          |
+|                                  | {style=&ldquo;color: rgb(255,86,48);&rdquo;} |
+|                                  |                                  |
+|                                  | example:                         |
+|                                  |                                  |
+|                                  | [![](/Users/terra                |
+|                                  | ire/Downloads/TtDT/media/img_119 |
+|                                  | .png){.confluence-embedded-image |
+|                                  | .image-center}]{.                |
+|                                  | confluence-embedded-file-wrapper |
+|                                  | .image-center-wrapper}           |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+| []{#Bookmark169}                 | [notes: the nested pipeline      |
+|                                  | diagram and the nesting diagram  |
+| #### [co                         | provide complementary views on   |
+| rresponding nested pipeline and  | nesting. The nested pipeline     |
+| nesting diagrams]{style=&ldquo;color:  | diagram represents the           |
+| rgb(255,86,48);&rdquo;} {#Bookmark169} | &quot;external layer&quot; of the        |
+|                                  | pipeline at each stage of the    |
+|                                  | nesting evolution, while the     |
+|                                  | nesting diagram represents the   |
+|                                  | post-nesting stage only, with a  |
+|                                  | view on the external layer and   |
+|                                  | internal layer(s) of the         |
+|                                  | pipeline.                        |
+|                                  | ]                                |
+|                                  | {style=&ldquo;color: rgb(255,86,48);&rdquo;} |
+|                                  |                                  |
+|                                  | [below is an example of          |
+|                                  | corresponding nested pipeline    |
+|                                  | and nesting                      |
+|                                  | diagrams:]                       |
+|                                  | {style=&ldquo;color: rgb(255,86,48);&rdquo;} |
+|                                  |                                  |
+|                                  | [![](/Users/terra                |
+|                                  | ire/Downloads/TtDT/media/img_120 |
+|                                  | .png){.confluence-embedded-image |
+|                                  | .image-center}]{.                |
+|                                  | confluence-embedded-file-wrapper |
+|                                  | .image-                          |
+|                                  | center-wrapper}[![](/Users/terra |
+|                                  | ire/Downloads/TtDT/media/img_121 |
+|                                  | .png){.confluence-embedded-image |
+|                                  | .image-center}]{.                |
+|                                  | confluence-embedded-file-wrapper |
+|                                  | .image-center-wrapper}           |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
+:::
+:::
+:::
+:::
+:::</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://example.org/" >
+    &copy;  My New Hugo Site 2023 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>
