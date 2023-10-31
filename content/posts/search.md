@@ -1,0 +1,89 @@
+---
+lang: en
+title: Search Result
+---
+
+::: full-height-container
+::: {#sidebar .split}
+::: {#search .navgroup}
+:::
+
+::: {#navigation .navgroup}
+-   [CLEAN CLIFcode Image]({{< ref "page5501091875.md" >}})
+-   [TtDT - Report]({{< ref "page5766283265.md" >}})
+    -   [TtDT - Report - Introduction]({{< ref "page5765071213.md" >}})
+    -   [TtDT - Report - A resilient approach]({{< ref "page5769560149.md" >}})
+    -   [TtDT - Report - A resilient, transparent bCLEARer pipeline
+        architecture]({{< ref "page5766316210.md" >}})
+        -   [TtDT - Report - bCLEARer\'s pipeline or pipe-and-filter
+            architecture]({{< ref "page5773230168.md" >}})
+        -   [TtDT - Report - bCLEARer\'s nested gated pipeline
+            architecture]({{< ref "page5773656071.md" >}})
+        -   [TtDT - Report - bCLEARer pipeline\'s three nesting
+            levels]({{< ref "page5766545422.md" >}})
+        -   [TtDT - Report - bCLEARer pipeline - general
+            design]({{< ref "page5775163422.md" >}})
+    -   [TtDT - Report - Building resilient transformation transparency
+        into the bCLEARer pipeline]({{< ref "page5769494532.md" >}})
+        -   [TtDT - Report - Building resilient dataset transformation
+            transparency]({{< ref "page5765136857.md" >}})
+        -   [TtDT - Report - Building resilient data item transformation
+            transparency]({{< ref "page5766316201.md" >}})
+    -   [TtDT - Report - Appendices]({{< ref "page5768675336.md" >}})
+        -   [TtDT - Report - Appendix - Process: principles versus
+            rules]({{< ref "page5769003012.md" >}})
+        -   [TtDT - Report - Appendix - bH - bHashing and
+            bSumming]({{< ref "page5768839184.md" >}})
+        -   [TtDT - Report - Appendix - cohesion and
+            coupling]({{< ref "page5772804097.md" >}})
+        -   [TtDT - Report - Appendix - separation of concerns
+            principle]({{< ref "page5772804106.md" >}})
+        -   [TtDT - Report - Appendix - immutability and idempotence
+            principle]({{< ref "page5772869633.md" >}})
+        -   [TtDT - Report - Appendix - single-transformation
+            (responsibility) principle (STP)]({{< ref "page5772804114.md" >}})
+        -   [TtDT - Report - Appendix - Aggregated S(ingle) S(ource)
+            O(f) T(ruth)]({{< ref "page5773328385.md" >}})
+        -   [TtDT - Report - Appendix - design patterns and
+            anti-patterns]({{< ref "page5775982593.md" >}})
+        -   [TtDT - Report - Appendix - Glossary of Major
+            Terms]({{< ref "page5780340771.md" >}})
+            -   [TtDT - Report - Appendix - Glossary of Major Terms -
+                Report]({{< ref "page5793284135.md" >}})
+            -   [TtDT - Report - Appendix - Glossary of Major Terms -
+                Research]({{< ref "page5793218610.md" >}})
+        -   [TtDT - Report - Appendix - Reference
+            Iconography]({{< ref "page5784010894.md" >}})
+            -   [TtDT - Report - Appendix - Reference Iconography -
+                Report]({{< ref "page5783355393.md" >}})
+                -   [TtDT - Report - Appendix - Reference Iconography -
+                    Report - Pipeline architecture]({{< ref "page5797249025.md" >}})
+                -   [TtDT - Report - Appendix - Reference Iconography -
+                    Report - Life history]({{< ref "page5796298761.md" >}})
+                -   [TtDT - Report - Appendix - Reference Iconography -
+                    Report - Inter-diagram mapping]({{< ref "page5796299378.md" >}})
+                -   [TtDT - Report - Appendix - Reference Iconography -
+                    Report - Common]({{< ref "page5796299991.md" >}})
+            -   [TtDT - Report - Appendix - Reference Iconography -
+                Research]({{< ref "page5785092097.md" >}})
+                -   [TtDT - Report - Appendix - Reference Iconography -
+                    Report - Pipeline architecture \_ archive
+                    30/01/23]({{< ref "page5796331521.md" >}})
+        -   [TtDT - Report - Appendix - The standard \'Pipeline\' or
+            \'Pipe-and-Filter\' Architecture]({{< ref "page5784338433.md" >}})
+    -   [TtDT - Report - References]({{< ref "page5766578192.md" >}})
+    -   [TtDT - Report - Acknowledgements]({{< ref "page5766545409.md" >}})
+:::
+:::
+
+::: {#content .split}
+::: wiki-page
+::: wiki-title
+# Search Result
+:::
+
+::: {#tipue_search_content}
+:::
+:::
+:::
+:::
