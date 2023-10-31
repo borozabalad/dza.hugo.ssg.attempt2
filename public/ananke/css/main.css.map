@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/Users/terraire/Downloads/PythonDev/ssg/my-new-hugo-site",
+	"sourceRoot": "/Users/terraire/Downloads/PythonDev/ssg/dza.hugo.ssg.attempt2",
 	"sources": [
 		"ananke/css/main.css"
 	],
